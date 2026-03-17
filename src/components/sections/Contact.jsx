@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useId } from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
 import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
 import { Button } from '../ui/Button';
@@ -6,19 +6,19 @@ import { cn } from '../../utils/cn';
 
 const INITIAL_FORM = { name: '', email: '', message: '' };
 
-function validateField(field, value) {
+function validateField(field, value, t) {
   switch (field) {
     case 'name':
-      if (!value.trim()) return 'Name is required';
-      if (value.trim().length < 2) return 'Name must be at least 2 characters';
+      if (!value.trim()) return t('contact.errors.nameRequired');
+      if (value.trim().length < 2) return t('contact.errors.nameMin');
       return '';
     case 'email':
-      if (!value.trim()) return 'Email is required';
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) return 'Invalid email address';
+      if (!value.trim()) return t('contact.errors.emailRequired');
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) return t('contact.errors.emailInvalid');
       return '';
     case 'message':
-      if (!value.trim()) return 'Message is required';
-      if (value.trim().length < 10) return 'Message must be at least 10 characters';
+      if (!value.trim()) return t('contact.errors.messageRequired');
+      if (value.trim().length < 10) return t('contact.errors.messageMin');
       return '';
     default:
       return '';
@@ -27,6 +27,7 @@ function validateField(field, value) {
 
 export function Contact() {
   const { t } = useTranslation();
+  const formId = useId();
   const [form, setForm] = useState(INITIAL_FORM);
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -34,21 +35,20 @@ export function Contact() {
   const handleChange = useCallback((field) => (e) => {
     const value = e.target.value;
     setForm((prev) => ({ ...prev, [field]: value }));
-    // Clear error on type
     setErrors((prev) => ({ ...prev, [field]: '' }));
   }, []);
 
   const handleBlur = useCallback((field) => () => {
-    const error = validateField(field, form[field]);
+    const error = validateField(field, form[field], t);
     setErrors((prev) => ({ ...prev, [field]: error }));
-  }, [form]);
+  }, [form, t]);
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
     const newErrors = {
-      name: validateField('name', form.name),
-      email: validateField('email', form.email),
-      message: validateField('message', form.message),
+      name: validateField('name', form.name, t),
+      email: validateField('email', form.email, t),
+      message: validateField('message', form.message, t),
     };
     setErrors(newErrors);
 
@@ -56,7 +56,7 @@ export function Contact() {
       setSubmitted(true);
       setForm(INITIAL_FORM);
     }
-  }, [form]);
+  }, [form, t]);
 
   return (
     <SectionWrapper id="contact">
@@ -68,18 +68,19 @@ export function Contact() {
         {/* Contact form */}
         <div>
           {submitted ? (
-            <div className="rounded-2xl bg-green-50 border border-green-200 p-8 text-center">
+            <div className="rounded-2xl bg-green-50 border border-green-200 p-8 text-center" role="status">
               <svg className="mx-auto h-12 w-12 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <p className="mt-4 text-lg font-semibold text-green-800">
-                Thank you for reaching out!
+                {t('contact.successTitle')}
               </p>
-              <p className="mt-2 text-green-700">We'll get back to you soon.</p>
+              <p className="mt-2 text-green-700">{t('contact.successMessage')}</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6" noValidate>
               <FormField
+                id={`${formId}-name`}
                 label={t('contact.name')}
                 type="text"
                 value={form.name}
@@ -88,6 +89,7 @@ export function Contact() {
                 error={errors.name}
               />
               <FormField
+                id={`${formId}-email`}
                 label={t('contact.email')}
                 type="email"
                 value={form.email}
@@ -96,6 +98,7 @@ export function Contact() {
                 error={errors.email}
               />
               <FormField
+                id={`${formId}-message`}
                 label={t('contact.message')}
                 type="textarea"
                 value={form.message}
@@ -143,7 +146,8 @@ export function Contact() {
   );
 }
 
-function FormField({ label, type, value, onChange, onBlur, error }) {
+function FormField({ id, label, type, value, onChange, onBlur, error }) {
+  const errorId = `${id}-error`;
   const inputClasses = cn(
     'w-full rounded-xl border bg-white px-4 py-3 text-neutral-800 outline-none transition-colors',
     error
@@ -151,29 +155,31 @@ function FormField({ label, type, value, onChange, onBlur, error }) {
       : 'border-cream-dark focus:border-amber focus:ring-2 focus:ring-amber/20'
   );
 
+  const sharedProps = {
+    id,
+    value,
+    onChange,
+    onBlur,
+    className: inputClasses,
+    'aria-invalid': error ? true : undefined,
+    'aria-describedby': error ? errorId : undefined,
+  };
+
   return (
     <div>
-      <label className="mb-2 block text-sm font-medium text-neutral-700">
+      <label htmlFor={id} className="mb-2 block text-sm font-medium text-neutral-700">
         {label}
       </label>
       {type === 'textarea' ? (
-        <textarea
-          value={value}
-          onChange={onChange}
-          onBlur={onBlur}
-          rows={5}
-          className={inputClasses}
-        />
+        <textarea rows={5} {...sharedProps} />
       ) : (
-        <input
-          type={type}
-          value={value}
-          onChange={onChange}
-          onBlur={onBlur}
-          className={inputClasses}
-        />
+        <input type={type} {...sharedProps} />
       )}
-      {error && <p className="mt-1 text-sm text-red-500">{error}</p>}
+      {error && (
+        <p id={errorId} role="alert" className="mt-1 text-sm text-red-500">
+          {error}
+        </p>
+      )}
     </div>
   );
 }

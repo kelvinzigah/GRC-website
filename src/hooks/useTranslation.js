@@ -13,13 +13,19 @@ function getNestedValue(obj, path) {
 }
 
 export function useTranslation() {
-  const { language, setLanguage, toggleLanguage } = useContext(LanguageContext);
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useTranslation must be used within a LanguageProvider');
+  }
+  const { language, setLanguage, toggleLanguage } = context;
 
   const t = useCallback(
     (key) => {
       const value = getNestedValue(translations[language], key);
       if (value === undefined) {
-        console.warn(`Missing translation: ${key} [${language}]`);
+        if (import.meta.env.DEV) {
+          console.warn(`Missing translation: ${key} [${language}]`);
+        }
         return key;
       }
       return value;

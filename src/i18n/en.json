@@ -196,6 +196,16 @@
     "email": "Email",
     "message": "Message",
     "submit": "Send Message",
+    "successTitle": "Thank you for reaching out!",
+    "successMessage": "We'll get back to you soon.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters"
+    },
     "address": "Namur, Montréal, QC, Canada",
     "emailAddress": "info@grcmontreal.ca",
     "phone": "(514) 000-0000"
