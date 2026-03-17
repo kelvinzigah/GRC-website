@@ -5,10 +5,12 @@
     "visionValues": "Vision & Values",
     "meetTeam": "Meet the Team",
     "ministries": "Ministries",
-    "bibleStudy": "Bible Study",
-    "evangelism": "Evangelism",
-    "communityOutreach": "Community Outreach",
-    "youth": "Youth",
+    "foodDrive": "Neighbourhood Food Drive",
+    "streetEvangelism": "Street Evangelism",
+    "smallGroups": "Small Groups",
+    "discipleshipMentorship": "Discipleship Mentorship",
+    "youthMentorship": "Youth Mentorship",
+    "contact": "Contact",
     "events": "Events",
     "media": "Media",
     "sermons": "Sermons",
@@ -46,8 +48,8 @@
       "time": "Saturdays, 10:00 AM",
       "desc": "Join us as we share the love of Christ in our neighbourhood."
     },
-    "address": "Namur, Montréal, QC, Canada",
-    "note": "All services held in English. Bienvenue à tous — le français est le bienvenu."
+    "address": "5275 Rue Ferrier, Montreal, QC H4P 1L7",
+    "note": "All services held in both English and French."
   },
   "values": {
     "headline": "Our Mission",
@@ -65,7 +67,7 @@
     }
   },
   "outreach": {
-    "headline": "Community Outreach",
+    "headline": "Ministries",
     "subtitle": "Serving Namur and beyond with the love of Christ.",
     "items": [
       {
@@ -73,19 +75,19 @@
         "desc": "Providing meals and essentials to families in need."
       },
       {
-        "title": "Back to School Giveaway",
-        "desc": "Equipping students with supplies for a strong start."
+        "title": "Small Groups",
+        "desc": "Smaller gatherings for concentrated worship and Bible study."
       },
       {
-        "title": "Street Evangelism — Namur",
+        "title": "Street Evangelism",
         "desc": "Sharing the Gospel on the streets of our community."
       },
       {
-        "title": "Prayer Walk",
-        "desc": "Walking our neighbourhood in prayer and intercession."
+        "title": "Discipleship Mentorship",
+        "desc": "Raising and training disciples to walk boldly in their faith."
       },
       {
-        "title": "Youth Mentorship Program",
+        "title": "Youth Mentorship",
         "desc": "Investing in the next generation through mentoring."
       }
     ]
@@ -206,7 +208,7 @@
       "messageRequired": "Message is required",
       "messageMin": "Message must be at least 10 characters"
     },
-    "address": "Namur, Montréal, QC, Canada",
+    "address": "5275 Rue Ferrier, Montreal, QC H4P 1L7",
     "emailAddress": "info@grcmontreal.ca",
     "phone": "(514) 000-0000"
   },

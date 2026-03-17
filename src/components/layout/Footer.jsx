@@ -74,9 +74,16 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-cream">{t('footer.ministries')}</h4>
             <ul className="mt-4 space-y-2">
-              {['bibleStudy', 'evangelism', 'communityOutreach', 'youth'].map((key) => (
+              {['foodDrive', 'streetEvangelism', 'smallGroups', 'discipleshipMentorship', 'youthMentorship'].map((key) => (
                 <li key={key}>
-                  <a href="#values" className="text-sm text-cream/60 hover:text-cream transition-colors">
+                  <a
+                    href="#ministries"
+                    className="text-sm text-cream/60 hover:text-cream transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.querySelector('#ministries')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
                     {t(`nav.${key}`)}
                   </a>
                 </li>

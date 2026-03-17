@@ -5,10 +5,12 @@
     "visionValues": "Vision et valeurs",
     "meetTeam": "Rencontrez l'équipe",
     "ministries": "Ministères",
-    "bibleStudy": "Étude biblique",
-    "evangelism": "Évangélisation",
-    "communityOutreach": "Action communautaire",
-    "youth": "Jeunesse",
+    "foodDrive": "Collecte alimentaire de quartier",
+    "streetEvangelism": "Évangélisation de rue",
+    "smallGroups": "Petits groupes",
+    "discipleshipMentorship": "Mentorat de disciples",
+    "youthMentorship": "Mentorat jeunesse",
+    "contact": "Contact",
     "events": "Événements",
     "media": "Médias",
     "sermons": "Prédications",
@@ -46,8 +48,8 @@
       "time": "Samedis, 10h00",
       "desc": "Venez partager l'amour du Christ dans notre quartier."
     },
-    "address": "Namur, Montréal, QC, Canada",
-    "note": "Tous les services sont en anglais. Bienvenue à tous — le français est le bienvenu."
+    "address": "5275 Rue Ferrier, Montréal, QC H4P 1L7",
+    "note": "Tous les services se déroulent en anglais et en français."
   },
   "values": {
     "headline": "Notre mission",
@@ -65,7 +67,7 @@
     }
   },
   "outreach": {
-    "headline": "Action communautaire",
+    "headline": "Ministères",
     "subtitle": "Servir Namur et au-delà avec l'amour du Christ.",
     "items": [
       {
@@ -73,19 +75,19 @@
         "desc": "Fournir des repas et des produits essentiels aux familles dans le besoin."
       },
       {
-        "title": "Distribution de rentrée scolaire",
-        "desc": "Équiper les étudiants de fournitures pour un bon départ."
+        "title": "Petits groupes",
+        "desc": "Rassemblements intimes pour une louange et une étude biblique concentrées."
       },
       {
-        "title": "Évangélisation de rue — Namur",
+        "title": "Évangélisation de rue",
         "desc": "Partager l'Évangile dans les rues de notre communauté."
       },
       {
-        "title": "Marche de prière",
-        "desc": "Parcourir notre quartier en prière et intercession."
+        "title": "Mentorat de disciples",
+        "desc": "Former et équiper des disciples pour marcher avec audace dans leur foi."
       },
       {
-        "title": "Programme de mentorat jeunesse",
+        "title": "Mentorat jeunesse",
         "desc": "Investir dans la prochaine génération par le mentorat."
       }
     ]
@@ -206,7 +208,7 @@
       "messageRequired": "Le message est requis",
       "messageMin": "Le message doit contenir au moins 10 caractères"
     },
-    "address": "Namur, Montréal, QC, Canada",
+    "address": "5275 Rue Ferrier, Montréal, QC H4P 1L7",
     "emailAddress": "info@grcmontreal.ca",
     "phone": "(514) 000-0000"
   },
