@@ -26,7 +26,7 @@ export function Outreach() {
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const { outerRef, stickyRef, scrollRef, isActive } =
-    useHorizontalScrollJack('(max-width: 1023px)');
+    useHorizontalScrollJack('(max-width: 1023px) and (pointer: fine)');
 
   // Observe the outer wrapper (normal flow) instead of the sticky section,
   // because IntersectionObserver uses layout position which is unreliable for sticky elements.
