@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "about": "About",
+    "ourStory": "Our Story",
+    "visionValues": "Vision & Values",
+    "meetTeam": "Meet the Team",
+    "ministries": "Ministries",
+    "bibleStudy": "Bible Study",
+    "evangelism": "Evangelism",
+    "communityOutreach": "Community Outreach",
+    "youth": "Youth",
+    "events": "Events",
+    "media": "Media",
+    "sermons": "Sermons",
+    "podcast": "Podcast",
+    "give": "Give",
+    "visitUs": "Visit Us"
+  },
+  "hero": {
+    "verse": "\"I am the gate; whoever enters through me will be saved.\"",
+    "reference": "— John 10:9 NIV",
+    "subtitle": "A community rooted in the Gospel, reaching Namur and beyond.",
+    "cta1": "Join Us Sunday",
+    "cta2": "Learn More"
+  },
+  "about": {
+    "headline": "Welcome to GRC",
+    "p1": "Gate of Redemption Church is a young, Spirit-filled church of about 40 members in Namur, Montréal. We are passionate about the Great Commission — making disciples, sharing the Gospel, and serving our community.",
+    "p2": "We're new here, but our mission isn't. Everyone is welcome.",
+    "cta": "New Here? We'd love to meet you →"
+  },
+  "services": {
+    "headline": "Join Us",
+    "sunday": {
+      "title": "Sunday Worship Service",
+      "time": "Sundays, 11:00 AM – 2:00 PM",
+      "desc": "Experience uplifting worship, powerful preaching, and genuine fellowship."
+    },
+    "bibleStudy": {
+      "title": "Weekly Bible Study",
+      "time": "Wednesdays, 7:00 PM",
+      "desc": "Dive deeper into God's Word in an intimate, discussion-driven setting."
+    },
+    "evangelism": {
+      "title": "Evangelism Outreach",
+      "time": "Saturdays, 10:00 AM",
+      "desc": "Join us as we share the love of Christ in our neighbourhood."
+    },
+    "address": "Namur, Montréal, QC, Canada",
+    "note": "All services held in English. Bienvenue à tous — le français est le bienvenu."
+  },
+  "values": {
+    "headline": "Our Mission",
+    "card1": {
+      "title": "The Great Commission",
+      "desc": "\"Go and make disciples of all nations.\" We exist to share the Gospel with everyone God places in our path."
+    },
+    "card2": {
+      "title": "Community Outreach",
+      "desc": "Loving our neighbourhood through service, presence, and compassion."
+    },
+    "card3": {
+      "title": "Discipleship",
+      "desc": "Growing together through the Word, prayer, and authentic community."
+    }
+  },
+  "outreach": {
+    "headline": "Community Outreach",
+    "subtitle": "Serving Namur and beyond with the love of Christ.",
+    "items": [
+      {
+        "title": "Neighbourhood Food Drive",
+        "desc": "Providing meals and essentials to families in need."
+      },
+      {
+        "title": "Back to School Giveaway",
+        "desc": "Equipping students with supplies for a strong start."
+      },
+      {
+        "title": "Street Evangelism — Namur",
+        "desc": "Sharing the Gospel on the streets of our community."
+      },
+      {
+        "title": "Prayer Walk",
+        "desc": "Walking our neighbourhood in prayer and intercession."
+      },
+      {
+        "title": "Youth Mentorship Program",
+        "desc": "Investing in the next generation through mentoring."
+      }
+    ]
+  },
+  "events": {
+    "headline": "Upcoming Events",
+    "items": [
+      {
+        "title": "Sunday Worship Service",
+        "date": "Every Sunday",
+        "time": "11:00 AM",
+        "desc": "Join us for a powerful time of worship and the Word."
+      },
+      {
+        "title": "Wednesday Bible Study",
+        "date": "Every Wednesday",
+        "time": "7:00 PM",
+        "desc": "Grow in faith through in-depth study of Scripture."
+      },
+      {
+        "title": "Evangelism Saturday",
+        "date": "Every Saturday",
+        "time": "10:00 AM",
+        "desc": "Go out and share the Gospel in our community."
+      },
+      {
+        "title": "Community Outreach Day",
+        "date": "March 29, 2026",
+        "time": "9:00 AM",
+        "desc": "A day dedicated to serving our neighbours with love."
+      },
+      {
+        "title": "Youth Night",
+        "date": "April 4, 2026",
+        "time": "6:00 PM",
+        "desc": "An evening of worship, games, and fellowship for youth."
+      },
+      {
+        "title": "Prayer & Fasting",
+        "date": "April 10–12, 2026",
+        "time": "All Day",
+        "desc": "Seek the Lord together through corporate prayer and fasting."
+      }
+    ],
+    "cta": "Register / Learn More"
+  },
+  "media": {
+    "headline": "Media",
+    "sermonsTitle": "Latest Sermons",
+    "podcastTitle": "Podcast",
+    "sermons": [
+      {
+        "title": "Walking Through the Gate",
+        "speaker": "Pastor Emmanuel",
+        "date": "March 9, 2026"
+      },
+      {
+        "title": "The Cost of Discipleship",
+        "speaker": "Pastor Emmanuel",
+        "date": "March 2, 2026"
+      },
+      {
+        "title": "Go and Make Disciples",
+        "speaker": "Elder David",
+        "date": "February 23, 2026"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Faith in the City: Planting in Montréal",
+        "duration": "32 min"
+      },
+      {
+        "title": "What the Great Commission Means Today",
+        "duration": "28 min"
+      },
+      {
+        "title": "Stories from the Streets: Evangelism in Namur",
+        "duration": "24 min"
+      }
+    ],
+    "viewAll": "View all sermons →",
+    "listenAll": "Listen to all episodes →"
+  },
+  "gallery": {
+    "headline": "Life at GRC",
+    "items": [
+      "Sunday Worship",
+      "Community Outreach",
+      "Youth Event",
+      "Prayer Meeting",
+      "Evangelism Walk",
+      "Fellowship",
+      "Bible Study",
+      "Praise Night",
+      "Serving Together"
+    ]
+  },
+  "connect": {
+    "headline": "Ready to take your next step?",
+    "subtitle": "Whether you're exploring faith or looking for a church family — there's a place for you at GRC.",
+    "cta1": "Plan Your Visit",
+    "cta2": "Contact Us"
+  },
+  "contact": {
+    "headline": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "address": "Namur, Montréal, QC, Canada",
+    "emailAddress": "info@grcmontreal.ca",
+    "phone": "(514) 000-0000"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "ministries": "Ministries",
+    "connectTitle": "Connect",
+    "followUs": "Follow Us",
+    "copyright": "© 2025 Gate of Redemption Church — Namur, Montréal",
+    "tagline": "Built with faith and purpose."
+  }
+}

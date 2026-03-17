@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "about": "À propos",
+    "ourStory": "Notre histoire",
+    "visionValues": "Vision et valeurs",
+    "meetTeam": "Rencontrez l'équipe",
+    "ministries": "Ministères",
+    "bibleStudy": "Étude biblique",
+    "evangelism": "Évangélisation",
+    "communityOutreach": "Action communautaire",
+    "youth": "Jeunesse",
+    "events": "Événements",
+    "media": "Médias",
+    "sermons": "Prédications",
+    "podcast": "Balado",
+    "give": "Donner",
+    "visitUs": "Nous visiter"
+  },
+  "hero": {
+    "verse": "\"Je suis la porte. Si quelqu'un entre par moi, il sera sauvé.\"",
+    "reference": "— Jean 10:9 S21",
+    "subtitle": "Une communauté enracinée dans l'Évangile, au service de Namur et au-delà.",
+    "cta1": "Rejoignez-nous dimanche",
+    "cta2": "En savoir plus"
+  },
+  "about": {
+    "headline": "Bienvenue à GRC",
+    "p1": "L'Église Porte de la Rédemption est une jeune église remplie de l'Esprit d'environ 40 membres à Namur, Montréal. Nous sommes passionnés par le Grand Mandat — faire des disciples, partager l'Évangile et servir notre communauté.",
+    "p2": "Nous sommes nouveaux ici, mais notre mission ne l'est pas. Tout le monde est le bienvenu.",
+    "cta": "Nouveau ici ? Nous aimerions vous rencontrer →"
+  },
+  "services": {
+    "headline": "Rejoignez-nous",
+    "sunday": {
+      "title": "Culte du dimanche",
+      "time": "Dimanches, 11h00 – 14h00",
+      "desc": "Vivez une louange édifiante, une prédication puissante et une communion fraternelle."
+    },
+    "bibleStudy": {
+      "title": "Étude biblique hebdomadaire",
+      "time": "Mercredis, 19h00",
+      "desc": "Approfondissez la Parole de Dieu dans un cadre intime et interactif."
+    },
+    "evangelism": {
+      "title": "Évangélisation",
+      "time": "Samedis, 10h00",
+      "desc": "Venez partager l'amour du Christ dans notre quartier."
+    },
+    "address": "Namur, Montréal, QC, Canada",
+    "note": "Tous les services sont en anglais. Bienvenue à tous — le français est le bienvenu."
+  },
+  "values": {
+    "headline": "Notre mission",
+    "card1": {
+      "title": "Le Grand Mandat",
+      "desc": "\"Allez et faites de toutes les nations des disciples.\" Nous existons pour partager l'Évangile avec tous ceux que Dieu place sur notre chemin."
+    },
+    "card2": {
+      "title": "Action communautaire",
+      "desc": "Aimer notre quartier par le service, la présence et la compassion."
+    },
+    "card3": {
+      "title": "Formation de disciples",
+      "desc": "Grandir ensemble par la Parole, la prière et une communauté authentique."
+    }
+  },
+  "outreach": {
+    "headline": "Action communautaire",
+    "subtitle": "Servir Namur et au-delà avec l'amour du Christ.",
+    "items": [
+      {
+        "title": "Collecte alimentaire de quartier",
+        "desc": "Fournir des repas et des produits essentiels aux familles dans le besoin."
+      },
+      {
+        "title": "Distribution de rentrée scolaire",
+        "desc": "Équiper les étudiants de fournitures pour un bon départ."
+      },
+      {
+        "title": "Évangélisation de rue — Namur",
+        "desc": "Partager l'Évangile dans les rues de notre communauté."
+      },
+      {
+        "title": "Marche de prière",
+        "desc": "Parcourir notre quartier en prière et intercession."
+      },
+      {
+        "title": "Programme de mentorat jeunesse",
+        "desc": "Investir dans la prochaine génération par le mentorat."
+      }
+    ]
+  },
+  "events": {
+    "headline": "Événements à venir",
+    "items": [
+      {
+        "title": "Culte du dimanche",
+        "date": "Chaque dimanche",
+        "time": "11h00",
+        "desc": "Rejoignez-nous pour un temps puissant de louange et de la Parole."
+      },
+      {
+        "title": "Étude biblique du mercredi",
+        "date": "Chaque mercredi",
+        "time": "19h00",
+        "desc": "Grandissez dans la foi par une étude approfondie des Écritures."
+      },
+      {
+        "title": "Samedi d'évangélisation",
+        "date": "Chaque samedi",
+        "time": "10h00",
+        "desc": "Sortez et partagez l'Évangile dans notre communauté."
+      },
+      {
+        "title": "Journée d'action communautaire",
+        "date": "29 mars 2026",
+        "time": "9h00",
+        "desc": "Une journée dédiée au service de nos voisins avec amour."
+      },
+      {
+        "title": "Soirée jeunesse",
+        "date": "4 avril 2026",
+        "time": "18h00",
+        "desc": "Une soirée de louange, de jeux et de communion pour les jeunes."
+      },
+      {
+        "title": "Prière et jeûne",
+        "date": "10–12 avril 2026",
+        "time": "Toute la journée",
+        "desc": "Chercher le Seigneur ensemble par la prière et le jeûne corporatifs."
+      }
+    ],
+    "cta": "S'inscrire / En savoir plus"
+  },
+  "media": {
+    "headline": "Médias",
+    "sermonsTitle": "Dernières prédications",
+    "podcastTitle": "Balado",
+    "sermons": [
+      {
+        "title": "Passer par la porte",
+        "speaker": "Pasteur Emmanuel",
+        "date": "9 mars 2026"
+      },
+      {
+        "title": "Le prix du discipulat",
+        "speaker": "Pasteur Emmanuel",
+        "date": "2 mars 2026"
+      },
+      {
+        "title": "Allez et faites des disciples",
+        "speaker": "Ancien David",
+        "date": "23 février 2026"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "La foi en ville : Planter à Montréal",
+        "duration": "32 min"
+      },
+      {
+        "title": "Ce que le Grand Mandat signifie aujourd'hui",
+        "duration": "28 min"
+      },
+      {
+        "title": "Histoires de la rue : Évangélisation à Namur",
+        "duration": "24 min"
+      }
+    ],
+    "viewAll": "Voir toutes les prédications →",
+    "listenAll": "Écouter tous les épisodes →"
+  },
+  "gallery": {
+    "headline": "La vie à GRC",
+    "items": [
+      "Culte du dimanche",
+      "Action communautaire",
+      "Événement jeunesse",
+      "Réunion de prière",
+      "Marche d'évangélisation",
+      "Communion fraternelle",
+      "Étude biblique",
+      "Soirée de louange",
+      "Servir ensemble"
+    ]
+  },
+  "connect": {
+    "headline": "Prêt à faire votre prochain pas ?",
+    "subtitle": "Que vous exploriez la foi ou cherchiez une famille d'église — il y a une place pour vous à GRC.",
+    "cta1": "Planifiez votre visite",
+    "cta2": "Contactez-nous"
+  },
+  "contact": {
+    "headline": "Contactez-nous",
+    "name": "Nom",
+    "email": "Courriel",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "address": "Namur, Montréal, QC, Canada",
+    "emailAddress": "info@grcmontreal.ca",
+    "phone": "(514) 000-0000"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "ministries": "Ministères",
+    "connectTitle": "Connexion",
+    "followUs": "Suivez-nous",
+    "copyright": "© 2025 Église Porte de la Rédemption — Namur, Montréal",
+    "tagline": "Bâti avec foi et intention."
+  }
+}
