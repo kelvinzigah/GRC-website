@@ -1,7 +1,7 @@
 import { useTranslation } from '../../hooks/useTranslation';
 import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
 import { Card } from '../ui/Card';
-import { Button } from '../ui/Button';
+import { Button, LinkButton } from '../ui/Button';
 
 const EVENT_GRADIENTS = [
   'from-burgundy to-burgundy-light',
@@ -16,6 +16,9 @@ export function Events() {
   const { t } = useTranslation();
   const events = t('events.items');
 
+  // Show only 3 most upcoming events on the homepage
+  const previewEvents = events.slice(0, 3);
+
   return (
     <SectionWrapper id="events" className="bg-cream-dark">
       <div className="text-center">
@@ -23,7 +26,7 @@ export function Events() {
       </div>
 
       <div className="stagger-children mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {events.map((event, index) => (
+        {previewEvents.map((event, index) => (
           <Card key={index} className="overflow-hidden p-0">
             {/* Colored banner */}
             <div className={`h-3 bg-gradient-to-r ${EVENT_GRADIENTS[index % EVENT_GRADIENTS.length]}`} />
@@ -49,6 +52,12 @@ export function Events() {
             </div>
           </Card>
         ))}
+      </div>
+
+      <div className="mt-10 text-center">
+        <LinkButton to="/events" variant="secondary">
+          See all events →
+        </LinkButton>
       </div>
     </SectionWrapper>
   );

@@ -1,6 +1,6 @@
 import { useTranslation } from '../../hooks/useTranslation';
 import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
-import { Button } from '../ui/Button';
+import { Button, LinkButton } from '../ui/Button';
 
 export function About() {
   const { t } = useTranslation();
@@ -17,10 +17,13 @@ export function About() {
           <p className="mt-4 text-lg italic text-burgundy font-medium">
             {t('about.p2')}
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap gap-4 items-center">
             <Button variant="ghost" onClick={() => document.querySelector('#connect')?.scrollIntoView({ behavior: 'smooth' })}>
               {t('about.cta')}
             </Button>
+            <LinkButton to="/about/our-story" variant="outlineDark" size="sm">
+              Our Story →
+            </LinkButton>
           </div>
         </div>
 

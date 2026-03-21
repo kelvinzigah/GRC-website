@@ -1,8 +1,18 @@
 import { useEffect, useCallback, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useHorizontalScrollJack } from '../../hooks/useHorizontalScrollJack';
 import { cn } from '../../utils/cn';
 import { Card, CardImage } from '../ui/Card';
+
+// Maps outreach.items array order to ministry route slugs
+const MINISTRY_SLUGS = [
+  'food-drive',
+  'small-groups',
+  'street-evangelism',
+  'discipleship-mentorship',
+  'youth-mentorship',
+];
 
 const OUTREACH_IMAGES = [
   '/images/homeless_outreach_1.jpg',
@@ -102,16 +112,12 @@ export function Outreach() {
                     {item.title}
                   </h3>
                   <p className="mt-2 text-sm text-neutral-600">{item.desc}</p>
-                  <a
-                    href="#connect"
+                  <Link
+                    to={`/ministries/${MINISTRY_SLUGS[index]}`}
                     className="mt-3 inline-block text-sm font-medium text-amber hover:text-amber-dark transition-colors"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      document.querySelector('#connect')?.scrollIntoView({ behavior: 'smooth' });
-                    }}
                   >
                     Learn more →
-                  </a>
+                  </Link>
                 </div>
               </Card>
             ))}

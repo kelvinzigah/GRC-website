@@ -49,3 +49,13 @@ Real church photos are in `public/images/`. Where photos aren't available, warm 
 - **`cn()` utility** (`src/utils/cn.js`): wraps `clsx` + `tailwind-merge` for conditional class composition. Use this instead of string concatenation.
 - **No backend**: Contact form validates client-side only and shows a success state — no actual submission. Wire up a service (Formspree, etc.) before launch.
 - **Section IDs**: Each section has a stable `id` used for scroll navigation and scroll-spy tracking. The canonical list is `SECTION_IDS` in `constants/navigation.js`.
+
+---
+
+## Vault Project Memory
+
+This project's session history and evolving context live in the Obsidian vault:
+- **Context**: `/home/kelvin/Documents/vault/projects/GRC_website/CONTEXT.md`
+- **Changelog**: `/home/kelvin/Documents/vault/projects/GRC_website/CHANGELOG.md`
+
+Use `/resume-session` at session start to load context. Use `/sync-session` at session end to log changes.

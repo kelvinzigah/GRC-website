@@ -1,7 +1,7 @@
 import { useTranslation } from '../../hooks/useTranslation';
 import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
 import { Card } from '../ui/Card';
-import { Button } from '../ui/Button';
+import { LinkButton } from '../ui/Button';
 
 const SERMON_GRADIENTS = [
   'from-burgundy-dark via-burgundy to-amber/30',
@@ -46,7 +46,7 @@ export function Media() {
           ))}
         </div>
         <div className="mt-6 text-center">
-          <Button variant="ghost">{t('media.viewAll')}</Button>
+          <LinkButton to="/media/sermons" variant="ghost">{t('media.viewAll')}</LinkButton>
         </div>
       </div>
 
@@ -74,7 +74,7 @@ export function Media() {
           ))}
         </div>
         <div className="mt-6 text-center">
-          <Button variant="ghost">{t('media.listenAll')}</Button>
+          <LinkButton to="/media/podcast" variant="ghost">{t('media.listenAll')}</LinkButton>
         </div>
       </div>
     </SectionWrapper>

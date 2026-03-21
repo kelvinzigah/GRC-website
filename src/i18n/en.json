@@ -212,6 +212,239 @@
     "emailAddress": "info@grcmontreal.ca",
     "phone": "(514) 000-0000"
   },
+  "ourStory": {
+    "hero": {
+      "headline": "Our Story",
+      "subtitle": "How a calling became a community in the heart of Namur."
+    },
+    "origin": {
+      "p1": "Gate of Redemption Church was born out of a deep conviction that the Gospel must be lived out in community. Founded in Namur, Montréal, GRC began as a small gathering of believers who felt called to serve this neighbourhood with the love of Christ.",
+      "p2": "We are a young, Spirit-filled church of about 40 members — diverse in background but united in purpose. We believe the Church is not a building but a people, and that people are called to go.",
+      "p3": "We're still writing our story. And we'd love for you to be part of it."
+    },
+    "timeline": [
+      { "year": "2023", "event": "GRC founded in Namur, Montréal" },
+      { "year": "2024", "event": "First street evangelism outreach" },
+      { "year": "2024", "event": "Neighbourhood Food Drive launched" },
+      { "year": "2025", "event": "Youth Mentorship program begins" },
+      { "year": "2026", "event": "Growing and reaching Namur and beyond" }
+    ],
+    "cta": "Come see us this Sunday →"
+  },
+
+  "visionValues": {
+    "hero": {
+      "headline": "What We Believe",
+      "subtitle": "Our vision, values, and the convictions that guide everything we do."
+    },
+    "missionStatement": "To make disciples of all nations, starting right here in Namur — through the proclamation of the Gospel, authentic community, and sacrificial service.",
+    "statementOfFaith": [
+      {
+        "title": "The Bible",
+        "text": "We believe the Bible is the inspired, infallible Word of God and the final authority for faith and life."
+      },
+      {
+        "title": "The Trinity",
+        "text": "We believe in one God eternally existing in three persons: Father, Son, and Holy Spirit."
+      },
+      {
+        "title": "Salvation",
+        "text": "We believe salvation is by grace alone, through faith alone, in Christ alone — His death and resurrection is the only basis for forgiveness and eternal life."
+      },
+      {
+        "title": "The Holy Spirit",
+        "text": "We believe the Holy Spirit indwells every believer and empowers the Church for witness, worship, and works of love."
+      },
+      {
+        "title": "The Church",
+        "text": "We believe the Church is the body of Christ, called to make disciples, care for one another, and serve the world."
+      },
+      {
+        "title": "The Great Commission",
+        "text": "We believe every follower of Jesus is called to go and make disciples — in their neighbourhood, city, and to the ends of the earth."
+      },
+      {
+        "title": "The Return of Christ",
+        "text": "We believe Jesus will return personally and visibly to judge the living and the dead and to establish His kingdom forever."
+      }
+    ],
+    "vision": "We believe Namur is not a forgotten neighbourhood — it is a mission field. GRC exists to be a light in this community: serving the poor, welcoming the stranger, and pointing everyone to Jesus.",
+    "cta": "Explore our ministries →"
+  },
+
+  "team": {
+    "hero": {
+      "headline": "Meet the Team",
+      "subtitle": "The people who lead, serve, and build community at GRC."
+    },
+    "members": [
+      {
+        "name": "Pastor Emmanuel",
+        "title": "Lead Pastor",
+        "bio": "Pastor Emmanuel leads GRC with a passion for the Gospel and a heart for the Namur community. He is committed to raising disciples who will go and make disciples."
+      },
+      {
+        "name": "Elder David",
+        "title": "Elder",
+        "bio": "David serves as an elder and is deeply involved in preaching, discipleship, and supporting the pastoral vision of the church."
+      },
+      {
+        "name": "Team Member",
+        "title": "Role",
+        "bio": "More team members coming soon. We're a growing community!"
+      }
+    ],
+    "cta": "Join our community →"
+  },
+
+  "ministriesPage": {
+    "hero": {
+      "headline": "Our Ministries",
+      "subtitle": "Serving Namur and beyond with the love of Christ."
+    },
+    "howToJoin": {
+      "title": "How to Get Involved",
+      "step1": "Reach out via the contact form or email us",
+      "step2": "Come meet us on a Sunday or at an outreach event",
+      "step3": "Join a ministry that fits your heart and calling"
+    },
+    "cta": "Questions? Contact us →"
+  },
+
+  "ministries": {
+    "foodDrive": {
+      "tagline": "Fighting hunger in Namur, one family at a time.",
+      "desc": "Our Neighbourhood Food Drive is one of our most visible expressions of Christ's love. Every week, we collect and distribute food to families in need right here in Namur. It's simple, practical, and deeply impactful — and we need your hands.",
+      "whoFor": "Anyone who wants to serve their community practically. No experience required — just a willing heart.",
+      "schedule": "Saturdays, 9:00 AM — 5275 Rue Ferrier, Montréal",
+      "impact": ["50+ families served monthly", "Weekly distribution", "Open to volunteers of all backgrounds"]
+    },
+    "streetEvangelism": {
+      "tagline": "Taking the Gospel to the streets of our neighbourhood.",
+      "desc": "Street Evangelism is at the heart of who we are. We believe the Gospel must go to where people are — not wait for them to come to us. Every Saturday, we go out into the streets of Namur to share the love and message of Jesus Christ with our neighbours.",
+      "whoFor": "Anyone with a desire to share their faith. We train and equip all volunteers — you don't need to be an expert, just willing.",
+      "schedule": "Saturdays, 10:00 AM — Meeting at 5275 Rue Ferrier",
+      "impact": ["Weekly outreach", "Trained team leaders", "Multi-lingual — English & French"]
+    },
+    "smallGroups": {
+      "tagline": "Deeper connection, deeper faith.",
+      "desc": "Small Groups are where community is built. These intimate gatherings of 6–12 people meet regularly for Bible study, prayer, worship, and real-life conversation. They're the backbone of discipleship at GRC.",
+      "whoFor": "Everyone — whether you're new to faith or have been walking with Jesus for years. Small groups are for anyone who wants to grow.",
+      "schedule": "Various times — contact us to find a group near you",
+      "impact": ["Multiple groups across the neighbourhood", "Bilingual options", "Safe, welcoming environment"]
+    },
+    "discipleshipMentorship": {
+      "tagline": "Raising the next generation of disciple-makers.",
+      "desc": "Discipleship Mentorship pairs mature believers with newer Christians for intentional, one-on-one or small-group spiritual growth. We believe faith is caught as much as it's taught — and that every believer is called to multiply.",
+      "whoFor": "New believers looking for guidance, and mature Christians ready to invest in others.",
+      "schedule": "Flexible scheduling — arranged between mentor and mentee",
+      "impact": ["One-on-one and small group formats", "Curriculum provided", "Ongoing support from church leadership"]
+    },
+    "youthMentorship": {
+      "tagline": "Investing in the next generation.",
+      "desc": "Youth Mentorship is our commitment to the young people of Namur. Through relationships, activities, and the Word of God, we walk alongside young people aged 13–25 to help them build a faith that lasts — and a life of purpose.",
+      "whoFor": "Youth aged 13–25, and adults who feel called to pour into the next generation.",
+      "schedule": "Monthly gatherings + ongoing mentorship — contact us for details",
+      "impact": ["Mentors for ages 13–25", "Faith-based life coaching", "Community and belonging"]
+    }
+  },
+
+  "eventsPage": {
+    "hero": {
+      "headline": "What's Happening at GRC",
+      "subtitle": "Join us for worship, study, outreach, and community."
+    },
+    "recurringTitle": "Weekly Services",
+    "subscribe": {
+      "headline": "Never miss an event",
+      "cta": "Contact us to stay informed →"
+    }
+  },
+
+  "mediaPage": {
+    "hero": {
+      "headline": "Grow in Your Faith",
+      "subtitle": "Sermons, podcasts, and resources to help you walk with Jesus."
+    },
+    "featured": {
+      "sermonsTitle": "Latest Sermons",
+      "podcastTitle": "Latest Podcast Episodes"
+    },
+    "browseSermonsLabel": "Browse all sermons →",
+    "browsePodcastLabel": "Listen to all episodes →"
+  },
+
+  "sermons": {
+    "hero": {
+      "headline": "Sermons",
+      "subtitle": "Audio and video messages from GRC."
+    },
+    "filterAll": "All",
+    "filterBySpeaker": "By Speaker",
+    "subscribeLabel": "Subscribe on YouTube →",
+    "items": [
+      {
+        "title": "Walking Through the Gate",
+        "speaker": "Pastor Emmanuel",
+        "date": "March 9, 2026",
+        "series": "Gospel of John",
+        "scriptureRef": "John 10:1–10",
+        "youtubeId": null
+      },
+      {
+        "title": "The Cost of Discipleship",
+        "speaker": "Pastor Emmanuel",
+        "date": "March 2, 2026",
+        "series": "Following Jesus",
+        "scriptureRef": "Luke 9:23–27",
+        "youtubeId": null
+      },
+      {
+        "title": "Go and Make Disciples",
+        "speaker": "Elder David",
+        "date": "February 23, 2026",
+        "series": "The Great Commission",
+        "scriptureRef": "Matthew 28:18–20",
+        "youtubeId": null
+      }
+    ]
+  },
+
+  "podcast": {
+    "hero": {
+      "headline": "The GRC Podcast",
+      "subtitle": "Conversations about faith, community, and the Gospel in Montréal."
+    },
+    "platforms": {
+      "apple": "Listen on Apple Podcasts",
+      "spotify": "Listen on Spotify",
+      "youtube": "Watch on YouTube"
+    },
+    "items": [
+      {
+        "title": "Faith in the City: Planting in Montréal",
+        "duration": "32 min",
+        "description": "Pastor Emmanuel shares the story behind GRC and what it means to plant a church in a secular city."
+      },
+      {
+        "title": "What the Great Commission Means Today",
+        "duration": "28 min",
+        "description": "A conversation about the call to make disciples and why it matters for every believer, not just pastors."
+      },
+      {
+        "title": "Stories from the Streets: Evangelism in Namur",
+        "duration": "24 min",
+        "description": "Real stories from our Saturday street evangelism team — encounters, challenges, and moments of grace."
+      }
+    ]
+  },
+
+  "notFound": {
+    "headline": "Page Not Found",
+    "subtitle": "The page you're looking for doesn't exist. You may have followed an old link.",
+    "cta": "Go Home"
+  },
+
   "footer": {
     "quickLinks": "Quick Links",
     "ministries": "Ministries",

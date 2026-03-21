@@ -212,6 +212,239 @@
     "emailAddress": "info@grcmontreal.ca",
     "phone": "(514) 000-0000"
   },
+  "ourStory": {
+    "hero": {
+      "headline": "Notre histoire",
+      "subtitle": "Comment un appel est devenu une communauté au cœur de Namur."
+    },
+    "origin": {
+      "p1": "L'Église Porte de la Rédemption est née d'une conviction profonde que l'Évangile doit être vécu en communauté. Fondée à Namur, Montréal, GRC a commencé comme un petit rassemblement de croyants appelés à servir ce quartier avec l'amour du Christ.",
+      "p2": "Nous sommes une jeune église remplie de l'Esprit d'environ 40 membres — divers en origine mais unis dans notre mission. Nous croyons que l'Église n'est pas un bâtiment mais un peuple, et que ce peuple est appelé à aller.",
+      "p3": "Nous écrivons encore notre histoire. Et nous aimerions que vous en fassiez partie."
+    },
+    "timeline": [
+      { "year": "2023", "event": "GRC fondée à Namur, Montréal" },
+      { "year": "2024", "event": "Première sortie d'évangélisation de rue" },
+      { "year": "2024", "event": "Lancement de la collecte alimentaire de quartier" },
+      { "year": "2025", "event": "Début du programme de mentorat jeunesse" },
+      { "year": "2026", "event": "En croissance, rayonnant à Namur et au-delà" }
+    ],
+    "cta": "Venez nous rendre visite ce dimanche →"
+  },
+
+  "visionValues": {
+    "hero": {
+      "headline": "Ce que nous croyons",
+      "subtitle": "Notre vision, nos valeurs et les convictions qui guident tout ce que nous faisons."
+    },
+    "missionStatement": "Faire des disciples de toutes les nations, en commençant ici à Namur — par la proclamation de l'Évangile, une communauté authentique et un service sacrificiel.",
+    "statementOfFaith": [
+      {
+        "title": "La Bible",
+        "text": "Nous croyons que la Bible est la Parole de Dieu inspirée, infaillible et l'autorité finale pour la foi et la vie."
+      },
+      {
+        "title": "La Trinité",
+        "text": "Nous croyons en un seul Dieu existant éternellement en trois personnes : le Père, le Fils et le Saint-Esprit."
+      },
+      {
+        "title": "Le salut",
+        "text": "Nous croyons que le salut est par la grâce seule, par la foi seule, en Christ seul — sa mort et sa résurrection sont le seul fondement du pardon et de la vie éternelle."
+      },
+      {
+        "title": "Le Saint-Esprit",
+        "text": "Nous croyons que le Saint-Esprit habite en chaque croyant et équipe l'Église pour le témoignage, le culte et les œuvres d'amour."
+      },
+      {
+        "title": "L'Église",
+        "text": "Nous croyons que l'Église est le corps du Christ, appelé à faire des disciples, à prendre soin les uns des autres et à servir le monde."
+      },
+      {
+        "title": "Le Grand Mandat",
+        "text": "Nous croyons que chaque disciple de Jésus est appelé à aller et à faire des disciples — dans son quartier, sa ville et jusqu'aux extrémités de la terre."
+      },
+      {
+        "title": "Le retour du Christ",
+        "text": "Nous croyons que Jésus reviendra personnellement et visiblement pour juger les vivants et les morts et établir son royaume pour toujours."
+      }
+    ],
+    "vision": "Nous croyons que Namur n'est pas un quartier oublié — c'est un champ missionnaire. GRC existe pour être une lumière dans cette communauté : servir les pauvres, accueillir l'étranger et pointer tout le monde vers Jésus.",
+    "cta": "Découvrez nos ministères →"
+  },
+
+  "team": {
+    "hero": {
+      "headline": "Rencontrez l'équipe",
+      "subtitle": "Les personnes qui dirigent, servent et bâtissent la communauté à GRC."
+    },
+    "members": [
+      {
+        "name": "Pasteur Emmanuel",
+        "title": "Pasteur principal",
+        "bio": "Le Pasteur Emmanuel dirige GRC avec une passion pour l'Évangile et un cœur pour la communauté de Namur. Il est engagé à former des disciples qui iront à leur tour faire des disciples."
+      },
+      {
+        "name": "Ancien David",
+        "title": "Ancien",
+        "bio": "David sert comme ancien et est profondément impliqué dans la prédication, le discipulat et le soutien de la vision pastorale de l'église."
+      },
+      {
+        "name": "Membre de l'équipe",
+        "title": "Rôle",
+        "bio": "D'autres membres de l'équipe arrivent bientôt. Nous sommes une communauté en croissance !"
+      }
+    ],
+    "cta": "Rejoignez notre communauté →"
+  },
+
+  "ministriesPage": {
+    "hero": {
+      "headline": "Nos ministères",
+      "subtitle": "Servir Namur et au-delà avec l'amour du Christ."
+    },
+    "howToJoin": {
+      "title": "Comment s'impliquer",
+      "step1": "Contactez-nous via le formulaire ou par courriel",
+      "step2": "Venez nous rejoindre un dimanche ou lors d'une sortie",
+      "step3": "Rejoignez un ministère qui correspond à votre cœur et vocation"
+    },
+    "cta": "Des questions ? Contactez-nous →"
+  },
+
+  "ministries": {
+    "foodDrive": {
+      "tagline": "Lutter contre la faim à Namur, une famille à la fois.",
+      "desc": "Notre collecte alimentaire de quartier est l'une de nos expressions les plus visibles de l'amour du Christ. Chaque semaine, nous collectons et distribuons de la nourriture aux familles dans le besoin ici même à Namur. C'est simple, pratique et profondément significatif — et nous avons besoin de vos mains.",
+      "whoFor": "Quiconque veut servir sa communauté concrètement. Aucune expérience requise — juste un cœur volontaire.",
+      "schedule": "Samedis, 9h00 — 5275 Rue Ferrier, Montréal",
+      "impact": ["Plus de 50 familles servies chaque mois", "Distribution hebdomadaire", "Ouvert aux bénévoles de tous horizons"]
+    },
+    "streetEvangelism": {
+      "tagline": "Porter l'Évangile dans les rues de notre quartier.",
+      "desc": "L'évangélisation de rue est au cœur de qui nous sommes. Nous croyons que l'Évangile doit aller là où sont les gens — et non attendre qu'ils viennent à nous. Chaque samedi, nous allons dans les rues de Namur pour partager l'amour et le message de Jésus-Christ avec nos voisins.",
+      "whoFor": "Quiconque désire partager sa foi. Nous formons et équipons tous les bénévoles — pas besoin d'être expert, juste volontaire.",
+      "schedule": "Samedis, 10h00 — Rendez-vous au 5275 Rue Ferrier",
+      "impact": ["Sortie hebdomadaire", "Responsables d'équipe formés", "Multilingue — anglais et français"]
+    },
+    "smallGroups": {
+      "tagline": "Des liens plus profonds, une foi plus profonde.",
+      "desc": "Les petits groupes sont là où la communauté se construit. Ces rassemblements intimes de 6 à 12 personnes se réunissent régulièrement pour l'étude biblique, la prière, le culte et de vraies conversations. Ils sont le fondement du discipulat à GRC.",
+      "whoFor": "Pour tous — que vous soyez nouveau dans la foi ou que vous marchiez avec Jésus depuis des années. Les petits groupes sont pour quiconque veut grandir.",
+      "schedule": "Horaires variés — contactez-nous pour trouver un groupe près de chez vous",
+      "impact": ["Plusieurs groupes dans le quartier", "Options bilingues", "Environnement sûr et accueillant"]
+    },
+    "discipleshipMentorship": {
+      "tagline": "Former la prochaine génération de faiseurs de disciples.",
+      "desc": "Le mentorat de disciples met en relation des croyants matures avec des chrétiens plus récents pour une croissance spirituelle intentionnelle, en tête-à-tête ou en petit groupe. Nous croyons que la foi se transmet autant qu'elle s'enseigne — et que chaque croyant est appelé à se multiplier.",
+      "whoFor": "Les nouveaux croyants en quête de guidance, et les chrétiens matures prêts à investir dans les autres.",
+      "schedule": "Horaires flexibles — arrangés entre mentor et mentoré",
+      "impact": ["Formats individuels et en petit groupe", "Curriculum fourni", "Soutien continu de la direction de l'église"]
+    },
+    "youthMentorship": {
+      "tagline": "Investir dans la prochaine génération.",
+      "desc": "Le mentorat jeunesse est notre engagement envers les jeunes de Namur. À travers des relations, des activités et la Parole de Dieu, nous accompagnons les jeunes de 13 à 25 ans pour les aider à construire une foi durable — et une vie avec un but.",
+      "whoFor": "Les jeunes de 13 à 25 ans, et les adultes qui se sentent appelés à investir dans la prochaine génération.",
+      "schedule": "Rassemblements mensuels + mentorat continu — contactez-nous pour les détails",
+      "impact": ["Mentors pour les 13–25 ans", "Coaching de vie basé sur la foi", "Communauté et appartenance"]
+    }
+  },
+
+  "eventsPage": {
+    "hero": {
+      "headline": "Ce qui se passe à GRC",
+      "subtitle": "Rejoignez-nous pour le culte, l'étude, l'évangélisation et la communauté."
+    },
+    "recurringTitle": "Services hebdomadaires",
+    "subscribe": {
+      "headline": "Ne manquez aucun événement",
+      "cta": "Contactez-nous pour rester informé →"
+    }
+  },
+
+  "mediaPage": {
+    "hero": {
+      "headline": "Grandissez dans votre foi",
+      "subtitle": "Prédications, balados et ressources pour vous aider à marcher avec Jésus."
+    },
+    "featured": {
+      "sermonsTitle": "Dernières prédications",
+      "podcastTitle": "Derniers épisodes du balado"
+    },
+    "browseSermonsLabel": "Voir toutes les prédications →",
+    "browsePodcastLabel": "Écouter tous les épisodes →"
+  },
+
+  "sermons": {
+    "hero": {
+      "headline": "Prédications",
+      "subtitle": "Messages audio et vidéo de GRC."
+    },
+    "filterAll": "Tout",
+    "filterBySpeaker": "Par prédicateur",
+    "subscribeLabel": "S'abonner sur YouTube →",
+    "items": [
+      {
+        "title": "Passer par la porte",
+        "speaker": "Pasteur Emmanuel",
+        "date": "9 mars 2026",
+        "series": "L'Évangile de Jean",
+        "scriptureRef": "Jean 10:1–10",
+        "youtubeId": null
+      },
+      {
+        "title": "Le prix du discipulat",
+        "speaker": "Pasteur Emmanuel",
+        "date": "2 mars 2026",
+        "series": "Suivre Jésus",
+        "scriptureRef": "Luc 9:23–27",
+        "youtubeId": null
+      },
+      {
+        "title": "Allez et faites des disciples",
+        "speaker": "Ancien David",
+        "date": "23 février 2026",
+        "series": "Le Grand Mandat",
+        "scriptureRef": "Matthieu 28:18–20",
+        "youtubeId": null
+      }
+    ]
+  },
+
+  "podcast": {
+    "hero": {
+      "headline": "Le balado GRC",
+      "subtitle": "Conversations sur la foi, la communauté et l'Évangile à Montréal."
+    },
+    "platforms": {
+      "apple": "Écouter sur Apple Podcasts",
+      "spotify": "Écouter sur Spotify",
+      "youtube": "Regarder sur YouTube"
+    },
+    "items": [
+      {
+        "title": "La foi en ville : Planter à Montréal",
+        "duration": "32 min",
+        "description": "Le Pasteur Emmanuel raconte l'histoire derrière GRC et ce que signifie planter une église dans une ville séculière."
+      },
+      {
+        "title": "Ce que le Grand Mandat signifie aujourd'hui",
+        "duration": "28 min",
+        "description": "Une conversation sur l'appel à faire des disciples et pourquoi cela concerne chaque croyant, pas seulement les pasteurs."
+      },
+      {
+        "title": "Histoires de la rue : Évangélisation à Namur",
+        "duration": "24 min",
+        "description": "Des histoires vraies de notre équipe d'évangélisation du samedi — rencontres, défis et moments de grâce."
+      }
+    ]
+  },
+
+  "notFound": {
+    "headline": "Page introuvable",
+    "subtitle": "La page que vous recherchez n'existe pas. Vous avez peut-être suivi un lien obsolète.",
+    "cta": "Retour à l'accueil"
+  },
+
   "footer": {
     "quickLinks": "Liens rapides",
     "ministries": "Ministères",

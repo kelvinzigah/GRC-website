@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from '../../hooks/useTranslation';
 import { NAV_LINKS_LEFT, NAV_LINKS_RIGHT } from '../../constants/navigation';
 import { cn } from '../../utils/cn';
 
-export function MobileMenu({ isOpen, onClose, onNavClick }) {
+export function MobileMenu({ isOpen, onClose }) {
   const { t, language, toggleLanguage } = useTranslation();
   const [expandedItem, setExpandedItem] = useState(null);
   const panelRef = useRef(null);
@@ -26,7 +27,6 @@ export function MobileMenu({ isOpen, onClose, onNavClick }) {
   useEffect(() => {
     if (isOpen) {
       previousFocusRef.current = document.activeElement;
-      // Focus close button after animation
       requestAnimationFrame(() => {
         closeButtonRef.current?.focus();
       });
@@ -45,7 +45,6 @@ export function MobileMenu({ isOpen, onClose, onNavClick }) {
       return;
     }
 
-    // Focus trap: Tab cycling within the panel
     if (e.key === 'Tab') {
       const panel = panelRef.current;
       if (!panel) return;
@@ -119,7 +118,7 @@ export function MobileMenu({ isOpen, onClose, onNavClick }) {
           </button>
         </div>
 
-        {/* Nav items - flex-1 with overflow instead of magic number */}
+        {/* Nav items */}
         <div className="flex-1 overflow-y-auto p-4">
           {allLinks.map((link) => (
             <div key={link.key} className="border-b border-cream/5">
@@ -152,26 +151,26 @@ export function MobileMenu({ isOpen, onClose, onNavClick }) {
                     )}
                   >
                     {link.dropdown.map((sub) => (
-                      <a
+                      <Link
                         key={sub.key}
-                        href={sub.href}
-                        onClick={(e) => onNavClick(e, sub.href)}
+                        to={sub.href}
+                        onClick={onClose}
                         className="block py-2 pl-4 text-sm text-cream/70 hover:text-cream"
                         tabIndex={expandedItem === link.key ? 0 : -1}
                       >
                         {t(sub.labelKey)}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </>
               ) : (
-                <a
-                  href={link.href}
-                  onClick={(e) => onNavClick(e, link.href)}
+                <Link
+                  to={link.href}
+                  onClick={onClose}
                   className="block py-3 font-medium text-cream/90 hover:text-cream"
                 >
                   {t(link.labelKey)}
-                </a>
+                </Link>
               )}
             </div>
           ))}

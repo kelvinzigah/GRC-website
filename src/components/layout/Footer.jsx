@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from '../../hooks/useTranslation';
 
 const SOCIAL_LINKS = [
@@ -30,6 +31,22 @@ const SOCIAL_LINKS = [
   },
 ];
 
+const QUICK_LINKS = [
+  { id: 'about', href: '/#about', labelKey: 'nav.about' },
+  { id: 'services', href: '/#services', labelKey: 'nav.visitUs' },
+  { id: 'events', href: '/events', labelKey: 'nav.events' },
+  { id: 'media', href: '/media', labelKey: 'nav.media' },
+  { id: 'contact', href: '/#contact', labelKey: 'nav.contact' },
+];
+
+const MINISTRY_LINKS = [
+  { key: 'foodDrive', slug: 'food-drive', labelKey: 'nav.foodDrive' },
+  { key: 'streetEvangelism', slug: 'street-evangelism', labelKey: 'nav.streetEvangelism' },
+  { key: 'smallGroups', slug: 'small-groups', labelKey: 'nav.smallGroups' },
+  { key: 'discipleshipMentorship', slug: 'discipleship-mentorship', labelKey: 'nav.discipleshipMentorship' },
+  { key: 'youthMentorship', slug: 'youth-mentorship', labelKey: 'nav.youthMentorship' },
+];
+
 export function Footer() {
   const { t } = useTranslation();
 
@@ -53,18 +70,14 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-cream">{t('footer.quickLinks')}</h4>
             <ul className="mt-4 space-y-2">
-              {['about', 'services', 'events', 'media', 'contact'].map((id) => (
-                <li key={id}>
-                  <a
-                    href={`#${id}`}
-                    className="text-sm text-cream/60 hover:text-cream transition-colors"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      document.querySelector(`#${id}`)?.scrollIntoView({ behavior: 'smooth' });
-                    }}
+              {QUICK_LINKS.map((link) => (
+                <li key={link.id}>
+                  <Link
+                    to={link.href}
+                    className="rounded-md px-2 py-1 text-sm text-cream/60 transition-colors hover:bg-amber hover:text-white"
                   >
-                    {t(`nav.${id === 'services' ? 'visitUs' : id}`)}
-                  </a>
+                    {t(link.labelKey)}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -74,18 +87,14 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-cream">{t('footer.ministries')}</h4>
             <ul className="mt-4 space-y-2">
-              {['foodDrive', 'streetEvangelism', 'smallGroups', 'discipleshipMentorship', 'youthMentorship'].map((key) => (
-                <li key={key}>
-                  <a
-                    href="#ministries"
-                    className="text-sm text-cream/60 hover:text-cream transition-colors"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      document.querySelector('#ministries')?.scrollIntoView({ behavior: 'smooth' });
-                    }}
+              {MINISTRY_LINKS.map((link) => (
+                <li key={link.key}>
+                  <Link
+                    to={`/ministries/${link.slug}`}
+                    className="rounded-md px-2 py-1 text-sm text-cream/60 transition-colors hover:bg-amber hover:text-white"
                   >
-                    {t(`nav.${key}`)}
-                  </a>
+                    {t(link.labelKey)}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -101,7 +110,7 @@ export function Footer() {
                   href={social.href}
                   target={social.href.startsWith('http') ? '_blank' : undefined}
                   rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-cream/10 text-cream/60 hover:bg-cream/20 hover:text-cream transition-colors"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-cream/10 text-cream/60 hover:bg-amber hover:text-white transition-colors"
                   aria-label={social.name}
                 >
                   {social.icon}

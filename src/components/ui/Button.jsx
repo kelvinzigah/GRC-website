@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { cn } from '../../utils/cn';
 
 const variants = {
@@ -18,6 +19,29 @@ const sizes = {
   md: 'px-6 py-3 text-base',
   lg: 'px-8 py-4 text-lg',
 };
+
+/** Router-aware link that looks like a Button. Use `to` instead of `href`. */
+export function LinkButton({
+  to,
+  variant = 'primary',
+  size = 'md',
+  className,
+  children,
+}) {
+  return (
+    <Link
+      to={to}
+      className={cn(
+        'inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-300',
+        variants[variant],
+        sizes[size],
+        className
+      )}
+    >
+      {children}
+    </Link>
+  );
+}
 
 export function Button({
   variant = 'primary',

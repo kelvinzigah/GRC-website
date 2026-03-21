@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { cn } from '../../utils/cn';
 
-export function DropdownMenu({ label, items, t, isActive, onNavClick }) {
+export function DropdownMenu({ label, items, t, isActive }) {
   const [open, setOpen] = useState(false);
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const timeoutRef = useRef(null);
@@ -80,7 +81,6 @@ export function DropdownMenu({ label, items, t, isActive, onNavClick }) {
   }, []);
 
   const handleBlur = useCallback((e) => {
-    // Close if focus moves outside the dropdown container
     const container = e.currentTarget;
     requestAnimationFrame(() => {
       if (!container.contains(document.activeElement)) {
@@ -89,6 +89,25 @@ export function DropdownMenu({ label, items, t, isActive, onNavClick }) {
       }
     });
   }, []);
+
+  const itemKeyDown = useCallback((e, index) => {
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      setOpen(false);
+      setFocusedIndex(-1);
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setFocusedIndex(Math.min(index + 1, items.length - 1));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (index === 0) {
+        setOpen(false);
+        setFocusedIndex(-1);
+      } else {
+        setFocusedIndex(index - 1);
+      }
+    }
+  }, [items.length]);
 
   return (
     <div
@@ -131,38 +150,18 @@ export function DropdownMenu({ label, items, t, isActive, onNavClick }) {
         role="menu"
       >
         {items.map((item, index) => (
-          <a
+          <Link
             key={item.key}
             ref={(el) => { itemRefs.current[index] = el; }}
-            href={item.href}
+            to={item.href}
             role="menuitem"
             tabIndex={open ? 0 : -1}
-            onClick={(e) => {
-              onNavClick(e, item.href);
-              setOpen(false);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Escape') {
-                e.preventDefault();
-                setOpen(false);
-                setFocusedIndex(-1);
-              } else if (e.key === 'ArrowDown') {
-                e.preventDefault();
-                setFocusedIndex(Math.min(index + 1, items.length - 1));
-              } else if (e.key === 'ArrowUp') {
-                e.preventDefault();
-                if (index === 0) {
-                  setOpen(false);
-                  setFocusedIndex(-1);
-                } else {
-                  setFocusedIndex(index - 1);
-                }
-              }
-            }}
-            className="block rounded-lg px-4 py-2.5 text-sm text-cream/80 transition-colors hover:bg-cream/10 hover:text-cream focus:bg-cream/10 focus:text-cream focus:outline-none"
+            onClick={() => setOpen(false)}
+            onKeyDown={(e) => itemKeyDown(e, index)}
+            className="block rounded-lg px-4 py-2.5 text-sm text-cream/80 transition-colors hover:bg-amber hover:text-white focus:bg-amber focus:text-white focus:outline-none"
           >
             {t(item.labelKey)}
-          </a>
+          </Link>
         ))}
       </div>
     </div>
