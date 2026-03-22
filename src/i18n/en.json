@@ -279,19 +279,24 @@
     },
     "members": [
       {
-        "name": "Pastor Emmanuel",
+        "name": "Pastor Claude",
         "title": "Lead Pastor",
-        "bio": "Pastor Emmanuel leads GRC with a passion for the Gospel and a heart for the Namur community. He is committed to raising disciples who will go and make disciples."
+        "bio": "Pastor Claude leads GRC with a passion for the Gospel and a heart for the Namur community. He founded the church and is committed to raising disciples who will go and make disciples."
       },
       {
-        "name": "Elder David",
-        "title": "Elder",
-        "bio": "David serves as an elder and is deeply involved in preaching, discipleship, and supporting the pastoral vision of the church."
+        "name": "Pastor Stephane",
+        "title": "Pastor",
+        "bio": "Pastor Stephane heads our community outreach efforts, including the neighbourhood food drive. He is passionate about meeting practical needs and showing the love of Christ in tangible ways."
       },
       {
-        "name": "Team Member",
-        "title": "Role",
-        "bio": "More team members coming soon. We're a growing community!"
+        "name": "Pastor Antoine",
+        "title": "Pastor",
+        "bio": "Pastor Antoine leads our discipleship and evangelism initiatives and oversees our youth ministry. He is dedicated to equipping believers to share their faith and grow in their walk with God."
+      },
+      {
+        "name": "Head Deacon Elijah",
+        "title": "Head Deacon",
+        "bio": "Deacon Elijah serves as general overseer of the church and heads our worship team. His servant leadership keeps the congregation connected and the Sunday experience centred on God."
       }
     ],
     "cta": "Join our community →"

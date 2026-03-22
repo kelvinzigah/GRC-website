@@ -279,19 +279,24 @@
     },
     "members": [
       {
-        "name": "Pasteur Emmanuel",
+        "name": "Pasteur Claude",
         "title": "Pasteur principal",
-        "bio": "Le Pasteur Emmanuel dirige GRC avec une passion pour l'Évangile et un cœur pour la communauté de Namur. Il est engagé à former des disciples qui iront à leur tour faire des disciples."
+        "bio": "Le Pasteur Claude dirige GRC avec une passion pour l'Évangile et un cœur pour la communauté de Namur. Il a fondé l'église et est engagé à former des disciples qui iront à leur tour faire des disciples."
       },
       {
-        "name": "Ancien David",
-        "title": "Ancien",
-        "bio": "David sert comme ancien et est profondément impliqué dans la prédication, le discipulat et le soutien de la vision pastorale de l'église."
+        "name": "Pasteur Stéphane",
+        "title": "Pasteur",
+        "bio": "Le Pasteur Stéphane coordonne nos efforts de rayonnement communautaire, notamment la collecte de nourriture de quartier. Il est passionné par la réponse aux besoins concrets et le témoignage de l'amour du Christ."
       },
       {
-        "name": "Membre de l'équipe",
-        "title": "Rôle",
-        "bio": "D'autres membres de l'équipe arrivent bientôt. Nous sommes une communauté en croissance !"
+        "name": "Pasteur Antoine",
+        "title": "Pasteur",
+        "bio": "Le Pasteur Antoine dirige nos initiatives de discipulat et d'évangélisation et supervise le ministère de la jeunesse. Il est dévoué à équiper les croyants pour partager leur foi et grandir dans leur marche avec Dieu."
+      },
+      {
+        "name": "Diacre Principal Elijah",
+        "title": "Diacre Principal",
+        "bio": "Le Diacre Elijah est le superviseur général de l'église et dirige notre équipe de louange. Son leadership serviteur maintient la congrégation unie et le culte du dimanche centré sur Dieu."
       }
     ],
     "cta": "Rejoignez notre communauté →"
