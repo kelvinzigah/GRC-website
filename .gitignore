@@ -31,6 +31,6 @@ playwright-report/
 .env
 .env.*
 
-# Screenshots
-*.png
-*.jpg.jpg
+# Screenshots (root-level only)
+/*.png
+/*.jpg.jpg

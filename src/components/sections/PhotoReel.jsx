@@ -3,7 +3,7 @@ const REEL_IMAGES = [
   { src: '/images/reel-pics/reel-2.jpg', alt: 'GRC community' },
   { src: '/images/reel-pics/reel-3.jpg', alt: 'GRC community' },
   { src: '/images/reel-pics/reel-4.jpg', alt: 'GRC community' },
-  { src: '/images/reel-pics/reel-5.jpg.jpg', alt: 'GRC community' },
+  { src: '/images/reel-pics/reel-5.jpg', alt: 'GRC community' },
 ];
 
 export function PhotoReel() {
