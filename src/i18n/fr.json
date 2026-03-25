@@ -209,7 +209,7 @@
       "messageMin": "Le message doit contenir au moins 10 caractères"
     },
     "address": "5275 Rue Ferrier, Montréal, QC H4P 1L7",
-    "emailAddress": "info@grcmontreal.ca",
+    "emailAddress": "gateofredemptionchurch@gmail.com",
     "phone": "(514) 000-0000"
   },
   "ourStory": {
@@ -442,6 +442,55 @@
         "description": "Des histoires vraies de notre équipe d'évangélisation du samedi — rencontres, défis et moments de grâce."
       }
     ]
+  },
+
+  "featuredEpisode": {
+    "seriesLabel": "Dernier épisode · Pain de Vie",
+    "title": "Pourquoi Dieu nous demande-t-il de Lui exprimer nos besoins ?",
+    "description": "Dans ce message Pain de Vie, sœur Dany nous invite à réfléchir sur Philippiens 4 : 6, où les croyants sont invités à présenter leurs besoins à Dieu. Bien que Dieu sache déjà tout, la prière n'est pas faite pour L'informer, mais pour rapprocher nos cœurs de Lui.",
+    "watchCta": "Regarder l'épisode →",
+    "browseCta": "Parcourir la médiathèque →",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3dgEfS0PLrY",
+    "thumbnailUrl": "/images/bread-of-life-logo.png"
+  },
+
+  "joinTeam": {
+    "headline": "Rejoindre une équipe",
+    "caption": "Rejoignez une équipe aujourd'hui pour commencer à faire une différence et trouver votre vocation en servant les autres. Nous pouvons tous jouer un rôle dans ce que Dieu accomplit, peu importe notre âge ou notre parcours.",
+    "cta": "Rejoindre une équipe →"
+  },
+
+  "serve": {
+    "hero": {
+      "headline": "Rejoindre une équipe",
+      "subtitle": "Trouvez votre place et servez aux côtés de la communauté GRC."
+    },
+    "intro": "Parlez-nous de vous et sélectionnez la ou les équipes qui vous intéressent. Nous vous contacterons pour vous mettre en lien.",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Adresse courriel",
+    "phone": "Téléphone (optionnel)",
+    "teamsLabel": "Quelle(s) équipe(s) vous intéresse(nt) ?",
+    "teams": {
+      "kids": "Ministère des enfants",
+      "youth": "Ministère des jeunes",
+      "cleaning": "Nettoyage pour Christ",
+      "greeter": "Accueil",
+      "usher": "Placeur",
+      "multimedia": "Équipe multimédia",
+      "worship": "Équipe de louange",
+      "lectors": "Lecteurs et traducteurs"
+    },
+    "submit": "Envoyer",
+    "successTitle": "Merci !",
+    "successMessage": "Nous avons bien reçu votre formulaire. Un responsable d'équipe vous contactera sous peu.",
+    "errors": {
+      "firstNameRequired": "Le prénom est requis.",
+      "lastNameRequired": "Le nom de famille est requis.",
+      "emailRequired": "L'adresse courriel est requise.",
+      "emailInvalid": "Veuillez entrer une adresse courriel valide.",
+      "teamsRequired": "Veuillez sélectionner au moins une équipe."
+    }
   },
 
   "notFound": {

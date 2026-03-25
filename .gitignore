@@ -30,3 +30,7 @@ playwright-report/
 # Environment
 .env
 .env.*
+
+# Screenshots
+*.png
+*.jpg.jpg

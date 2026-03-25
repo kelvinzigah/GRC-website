@@ -1,54 +1,63 @@
 import { useTranslation } from '../../hooks/useTranslation';
-import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
+import { SectionHeadline } from '../ui/SectionWrapper';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 
-const GALLERY_ITEMS = [
-  { src: '/images/togetherness_1.jpg', span: 'col-span-2 row-span-2' },
-  { src: '/images/evangelism_pic_1.jpg', span: '' },
-  { src: null, gradient: 'from-burgundy to-amber', span: '' },
-  { src: '/images/homeless_outreach_1.jpg', span: 'col-span-2' },
-  { src: null, gradient: 'from-amber-dark to-gold', span: '' },
-  { src: '/images/homeless_outreach_2.jpg', span: '' },
-  { src: null, gradient: 'from-burgundy-dark to-burgundy-light', span: '' },
-  { src: '/images/good_landing_page_1.jpg', span: '' },
+const GALLERY_IMAGES = [
+  { src: '/images/togetherness_1.jpg', alt: 'GRC community together' },
+  { src: '/images/reel-pics/reel-1.jpg', alt: 'GRC life' },
+  { src: '/images/community_2.jpg', alt: 'Community gathering' },
+  { src: '/images/evangelism_pic_1.jpg', alt: 'Evangelism outreach' },
+  { src: '/images/reel-pics/reel-2.jpg', alt: 'GRC life' },
+  { src: '/images/homeless_outreach_1.jpg', alt: 'Homeless outreach' },
+  { src: '/images/evangelism_2.jpg', alt: 'Street evangelism' },
+  { src: '/images/community_3.jpg', alt: 'Community life' },
+  { src: '/images/reel-pics/reel-3.jpg', alt: 'GRC life' },
+  { src: '/images/evangelism_3.jpg', alt: 'Evangelism walk' },
+  { src: '/images/homeless_outreach_2.jpg', alt: 'Serving our neighbours' },
+  { src: '/images/worship_1.jpg', alt: 'Worship service' },
+  { src: '/images/community_1.jpg', alt: 'Fellowship' },
+  { src: '/images/reel-pics/reel-4.jpg', alt: 'GRC life' },
+  { src: '/images/homeless_outreach_5.jpg', alt: 'Outreach day' },
+  { src: '/images/reel-pics/reel-5.jpg', alt: 'GRC life' },
 ];
 
 export function Gallery() {
   const { t } = useTranslation();
-  const labels = t('gallery.items');
+  const ref = useScrollAnimation();
 
   return (
-    <SectionWrapper id="gallery" className="bg-cream-dark">
-      <div className="text-center">
-        <SectionHeadline>{t('gallery.headline')}</SectionHeadline>
+    <section
+      id="gallery"
+      ref={ref}
+      className="animate-on-scroll bg-cream-dark py-20 md:py-28 overflow-hidden"
+    >
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <SectionHeadline>{t('gallery.headline')}</SectionHeadline>
+        </div>
       </div>
 
-      <div className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-        {GALLERY_ITEMS.map((item, index) => (
+      {/* Diamond collage: entire 4×4 grid rotated 45° — squares appear as diamonds */}
+      <div className="relative mt-12 h-[420px] sm:h-[520px] overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center">
           <div
-            key={index}
-            className={`group relative overflow-hidden rounded-xl ${item.span} aspect-square cursor-pointer`}
+            className="grid grid-cols-4 gap-2 sm:gap-3"
+            style={{ transform: 'rotate(45deg) scale(1.42)', width: '420px' }}
           >
-            {item.src ? (
-              <img
-                src={item.src}
-                alt={labels[index] || ''}
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                loading="lazy"
-              />
-            ) : (
-              <div
-                className={`h-full w-full bg-gradient-to-br ${item.gradient}`}
-              />
-            )}
-            {/* Hover overlay */}
-            <div className="absolute inset-0 flex items-end bg-gradient-to-t from-burgundy-dark/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <p className="p-4 font-medium text-cream text-sm">
-                {labels[index] || ''}
-              </p>
-            </div>
+            {GALLERY_IMAGES.map(({ src, alt }) => (
+              <div key={src} className="aspect-square overflow-hidden">
+                <img
+                  src={src}
+                  alt={alt}
+                  className="h-full w-full object-cover"
+                  style={{ transform: 'rotate(-45deg) scale(1.42)' }}
+                  loading="lazy"
+                />
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
-    </SectionWrapper>
+    </section>
   );
 }

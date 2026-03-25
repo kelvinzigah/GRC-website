@@ -209,7 +209,7 @@
       "messageMin": "Message must be at least 10 characters"
     },
     "address": "5275 Rue Ferrier, Montreal, QC H4P 1L7",
-    "emailAddress": "info@grcmontreal.ca",
+    "emailAddress": "gateofredemptionchurch@gmail.com",
     "phone": "(514) 000-0000"
   },
   "ourStory": {
@@ -442,6 +442,55 @@
         "description": "Real stories from our Saturday street evangelism team — encounters, challenges, and moments of grace."
       }
     ]
+  },
+
+  "featuredEpisode": {
+    "seriesLabel": "Latest Episode · Bread of Life",
+    "title": "Why God Asks Us to Tell Him Our Needs?",
+    "description": "In this Bread of Life message, sister Dany helps us reflect on the instruction in Philippians 4:6 where believers are invited to make their needs known to God. While God already knows everything, prayer is not meant to inform Him but to draw our hearts closer to Him.",
+    "watchCta": "Watch Episode →",
+    "browseCta": "Browse Media Library →",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3dgEfS0PLrY",
+    "thumbnailUrl": "/images/bread-of-life-logo.png"
+  },
+
+  "joinTeam": {
+    "headline": "Join a Team",
+    "caption": "Join a team today to begin making a difference and find your purpose while serving others. We can all play a part in what God is doing no matter our age or background.",
+    "cta": "Join a team →"
+  },
+
+  "serve": {
+    "hero": {
+      "headline": "Join a Team",
+      "subtitle": "Find your place and serve alongside the GRC community."
+    },
+    "intro": "Tell us about yourself and select the team(s) you're interested in. We'll reach out to connect you.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone (optional)",
+    "teamsLabel": "Which team(s) are you interested in?",
+    "teams": {
+      "kids": "Kids / Children's Ministry",
+      "youth": "Youth Ministry",
+      "cleaning": "Cleaning for Christ",
+      "greeter": "Greeter",
+      "usher": "Usher",
+      "multimedia": "Multimedia Team",
+      "worship": "Worship Team",
+      "lectors": "Lectors and Translators"
+    },
+    "submit": "Submit",
+    "successTitle": "Thank you!",
+    "successMessage": "We received your interest form. A team leader will be in touch soon.",
+    "errors": {
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "teamsRequired": "Please select at least one team."
+    }
   },
 
   "notFound": {

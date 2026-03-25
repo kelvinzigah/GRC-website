@@ -16,6 +16,7 @@ const EventsPage = lazy(() => import('./pages/events/EventsPage'));
 const MediaPage = lazy(() => import('./pages/media/MediaPage'));
 const SermonsPage = lazy(() => import('./pages/media/SermonsPage'));
 const PodcastPage = lazy(() => import('./pages/media/PodcastPage'));
+const ServePage = lazy(() => import('./pages/serve/ServePage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 createRoot(document.getElementById('root')).render(
@@ -35,6 +36,7 @@ createRoot(document.getElementById('root')).render(
               <Route path="media" element={<MediaPage />} />
               <Route path="media/sermons" element={<SermonsPage />} />
               <Route path="media/podcast" element={<PodcastPage />} />
+              <Route path="serve" element={<ServePage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Route>
           </Routes>
