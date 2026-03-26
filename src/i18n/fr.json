@@ -21,13 +21,13 @@
   "hero": {
     "verse": "\"Je suis la porte. Si quelqu'un entre par moi, il sera sauvé.\"",
     "reference": "— Jean 10:9 S21",
-    "subtitle": "Une communauté enracinée dans l'Évangile, au service de Namur et au-delà.",
+    "subtitle": "Une communauté enracinée dans l'Évangile, portant l'amour du Christ à tous.",
     "cta1": "Rejoignez-nous dimanche",
     "cta2": "En savoir plus"
   },
   "about": {
     "headline": "Bienvenue à GRC",
-    "p1": "L'Église Porte de la Rédemption est une jeune église remplie de l'Esprit d'environ 40 membres à Namur, Montréal. Nous sommes passionnés par le Grand Mandat — faire des disciples, partager l'Évangile et servir notre communauté.",
+    "p1": "L'Église Porte de la Rédemption est une jeune église remplie de l'Esprit d'environ 40 membres à Montréal. Nous sommes passionnés par le Grand Mandat — faire des disciples, partager l'Évangile et servir notre communauté.",
     "p2": "Nous sommes nouveaux ici, mais notre mission ne l'est pas. Tout le monde est le bienvenu.",
     "cta": "Nouveau ici ? Nous aimerions vous rencontrer →"
   },
@@ -68,7 +68,7 @@
   },
   "outreach": {
     "headline": "Ministères",
-    "subtitle": "Servir Namur et au-delà avec l'amour du Christ.",
+    "subtitle": "Servir notre communauté et le monde avec l'amour du Christ.",
     "items": [
       {
         "title": "Collecte alimentaire de quartier",
@@ -165,7 +165,7 @@
         "duration": "28 min"
       },
       {
-        "title": "Histoires de la rue : Évangélisation à Namur",
+        "title": "Histoires de la rue : Évangélisation dans la communauté",
         "duration": "24 min"
       }
     ],
@@ -215,19 +215,19 @@
   "ourStory": {
     "hero": {
       "headline": "Notre histoire",
-      "subtitle": "Comment un appel est devenu une communauté au cœur de Namur."
+      "subtitle": "Comment un appel est devenu une communauté, enracinée dans l'Évangile et envoyée dans le monde."
     },
     "origin": {
-      "p1": "L'Église Porte de la Rédemption est née d'une conviction profonde que l'Évangile doit être vécu en communauté. Fondée à Namur, Montréal, GRC a commencé comme un petit rassemblement de croyants appelés à servir ce quartier avec l'amour du Christ.",
+      "p1": "L'Église Porte de la Rédemption est née d'une conviction profonde que l'Évangile doit être vécu en communauté. Fondée à Montréal, GRC a commencé comme un petit rassemblement de croyants appelés à servir leur communauté avec l'amour du Christ.",
       "p2": "Nous sommes une jeune église remplie de l'Esprit d'environ 40 membres — divers en origine mais unis dans notre mission. Nous croyons que l'Église n'est pas un bâtiment mais un peuple, et que ce peuple est appelé à aller.",
       "p3": "Nous écrivons encore notre histoire. Et nous aimerions que vous en fassiez partie."
     },
     "timeline": [
-      { "year": "2023", "event": "GRC fondée à Namur, Montréal" },
+      { "year": "2023", "event": "GRC fondée à Montréal" },
       { "year": "2024", "event": "Première sortie d'évangélisation de rue" },
       { "year": "2024", "event": "Lancement de la collecte alimentaire de quartier" },
       { "year": "2025", "event": "Début du programme de mentorat jeunesse" },
-      { "year": "2026", "event": "En croissance, rayonnant à Namur et au-delà" }
+      { "year": "2026", "event": "En croissance, rayonnant pour Christ dans le monde" }
     ],
     "cta": "Venez nous rendre visite ce dimanche →"
   },
@@ -237,7 +237,7 @@
       "headline": "Ce que nous croyons",
       "subtitle": "Notre vision, nos valeurs et les convictions qui guident tout ce que nous faisons."
     },
-    "missionStatement": "Faire des disciples de toutes les nations, en commençant ici à Namur — par la proclamation de l'Évangile, une communauté authentique et un service sacrificiel.",
+    "missionStatement": "Faire des disciples de toutes les nations, en commençant ici dans notre communauté — par la proclamation de l'Évangile, une communauté authentique et un service sacrificiel.",
     "statementOfFaith": [
       {
         "title": "La Bible",
@@ -268,7 +268,7 @@
         "text": "Nous croyons que Jésus reviendra personnellement et visiblement pour juger les vivants et les morts et établir son royaume pour toujours."
       }
     ],
-    "vision": "Nous croyons que Namur n'est pas un quartier oublié — c'est un champ missionnaire. GRC existe pour être une lumière dans cette communauté : servir les pauvres, accueillir l'étranger et pointer tout le monde vers Jésus.",
+    "vision": "Nous croyons que chaque communauté est un champ missionnaire. GRC existe pour être une lumière là où Dieu nous envoie — servir les pauvres, accueillir l'étranger et pointer tout le monde vers Jésus.",
     "cta": "Découvrez nos ministères →"
   },
 
@@ -281,7 +281,7 @@
       {
         "name": "Pasteur Claude",
         "title": "Pasteur principal",
-        "bio": "Le Pasteur Claude dirige GRC avec une passion pour l'Évangile et un cœur pour la communauté de Namur. Il a fondé l'église et est engagé à former des disciples qui iront à leur tour faire des disciples."
+        "bio": "Le Pasteur Claude dirige GRC avec une passion pour l'Évangile et un cœur pour la communauté. Il a fondé l'église et est engagé à former des disciples qui iront à leur tour faire des disciples."
       },
       {
         "name": "Pasteur Stéphane",
@@ -305,7 +305,7 @@
   "ministriesPage": {
     "hero": {
       "headline": "Nos ministères",
-      "subtitle": "Servir Namur et au-delà avec l'amour du Christ."
+      "subtitle": "Servir notre communauté et le monde avec l'amour du Christ."
     },
     "howToJoin": {
       "title": "Comment s'impliquer",
@@ -318,15 +318,15 @@
 
   "ministries": {
     "foodDrive": {
-      "tagline": "Lutter contre la faim à Namur, une famille à la fois.",
-      "desc": "Notre collecte alimentaire de quartier est l'une de nos expressions les plus visibles de l'amour du Christ. Chaque semaine, nous collectons et distribuons de la nourriture aux familles dans le besoin ici même à Namur. C'est simple, pratique et profondément significatif — et nous avons besoin de vos mains.",
+      "tagline": "Lutter contre la faim dans notre communauté, une famille à la fois.",
+      "desc": "Notre collecte alimentaire de quartier est l'une de nos expressions les plus visibles de l'amour du Christ. Chaque semaine, nous collectons et distribuons de la nourriture aux familles dans le besoin ici même dans notre communauté. C'est simple, pratique et profondément significatif — et nous avons besoin de vos mains.",
       "whoFor": "Quiconque veut servir sa communauté concrètement. Aucune expérience requise — juste un cœur volontaire.",
       "schedule": "Samedis, 9h00 — 5275 Rue Ferrier, Montréal",
       "impact": ["Plus de 50 familles servies chaque mois", "Distribution hebdomadaire", "Ouvert aux bénévoles de tous horizons"]
     },
     "streetEvangelism": {
       "tagline": "Porter l'Évangile dans les rues de notre quartier.",
-      "desc": "L'évangélisation de rue est au cœur de qui nous sommes. Nous croyons que l'Évangile doit aller là où sont les gens — et non attendre qu'ils viennent à nous. Chaque samedi, nous allons dans les rues de Namur pour partager l'amour et le message de Jésus-Christ avec nos voisins.",
+      "desc": "L'évangélisation de rue est au cœur de qui nous sommes. Nous croyons que l'Évangile doit aller là où sont les gens — et non attendre qu'ils viennent à nous. Chaque samedi, nous allons dans les rues de notre communauté pour partager l'amour et le message de Jésus-Christ avec nos voisins.",
       "whoFor": "Quiconque désire partager sa foi. Nous formons et équipons tous les bénévoles — pas besoin d'être expert, juste volontaire.",
       "schedule": "Samedis, 10h00 — Rendez-vous au 5275 Rue Ferrier",
       "impact": ["Sortie hebdomadaire", "Responsables d'équipe formés", "Multilingue — anglais et français"]
@@ -347,7 +347,7 @@
     },
     "youthMentorship": {
       "tagline": "Investir dans la prochaine génération.",
-      "desc": "Le mentorat jeunesse est notre engagement envers les jeunes de Namur. À travers des relations, des activités et la Parole de Dieu, nous accompagnons les jeunes de 13 à 25 ans pour les aider à construire une foi durable — et une vie avec un but.",
+      "desc": "Le mentorat jeunesse est notre engagement envers les jeunes de notre communauté. À travers des relations, des activités et la Parole de Dieu, nous accompagnons les jeunes de 13 à 25 ans pour les aider à construire une foi durable — et une vie avec un but.",
       "whoFor": "Les jeunes de 13 à 25 ans, et les adultes qui se sentent appelés à investir dans la prochaine génération.",
       "schedule": "Rassemblements mensuels + mentorat continu — contactez-nous pour les détails",
       "impact": ["Mentors pour les 13–25 ans", "Coaching de vie basé sur la foi", "Communauté et appartenance"]
@@ -437,7 +437,7 @@
         "description": "Une conversation sur l'appel à faire des disciples et pourquoi cela concerne chaque croyant, pas seulement les pasteurs."
       },
       {
-        "title": "Histoires de la rue : Évangélisation à Namur",
+        "title": "Histoires de la rue : Évangélisation dans la communauté",
         "duration": "24 min",
         "description": "Des histoires vraies de notre équipe d'évangélisation du samedi — rencontres, défis et moments de grâce."
       }
@@ -504,7 +504,7 @@
     "ministries": "Ministères",
     "connectTitle": "Connexion",
     "followUs": "Suivez-nous",
-    "copyright": "© 2025 Église Porte de la Rédemption — Namur, Montréal",
+    "copyright": "© 2025 Église Porte de la Rédemption — Montréal, QC",
     "tagline": "Bâti avec foi et intention."
   }
 }

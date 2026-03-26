@@ -21,13 +21,13 @@
   "hero": {
     "verse": "\"I am the gate; whoever enters through me will be saved.\"",
     "reference": "— John 10:9 NIV",
-    "subtitle": "A community rooted in the Gospel, reaching Namur and beyond.",
+    "subtitle": "A community rooted in the Gospel, bringing the love of Christ to all.",
     "cta1": "Join Us Sunday",
     "cta2": "Learn More"
   },
   "about": {
     "headline": "Welcome to GRC",
-    "p1": "Gate of Redemption Church is a young, Spirit-filled church of about 40 members in Namur, Montréal. We are passionate about the Great Commission — making disciples, sharing the Gospel, and serving our community.",
+    "p1": "Gate of Redemption Church is a young, Spirit-filled church of about 40 members in Montréal. We are passionate about the Great Commission — making disciples, sharing the Gospel, and serving our community.",
     "p2": "We're new here, but our mission isn't. Everyone is welcome.",
     "cta": "New Here? We'd love to meet you →"
   },
@@ -68,7 +68,7 @@
   },
   "outreach": {
     "headline": "Ministries",
-    "subtitle": "Serving Namur and beyond with the love of Christ.",
+    "subtitle": "Serving our community and the world with the love of Christ.",
     "items": [
       {
         "title": "Neighbourhood Food Drive",
@@ -165,7 +165,7 @@
         "duration": "28 min"
       },
       {
-        "title": "Stories from the Streets: Evangelism in Namur",
+        "title": "Stories from the Streets: Evangelism in the Community",
         "duration": "24 min"
       }
     ],
@@ -215,19 +215,19 @@
   "ourStory": {
     "hero": {
       "headline": "Our Story",
-      "subtitle": "How a calling became a community in the heart of Namur."
+      "subtitle": "How a calling became a community, rooted in the Gospel and sent into the world."
     },
     "origin": {
-      "p1": "Gate of Redemption Church was born out of a deep conviction that the Gospel must be lived out in community. Founded in Namur, Montréal, GRC began as a small gathering of believers who felt called to serve this neighbourhood with the love of Christ.",
+      "p1": "Gate of Redemption Church was born out of a deep conviction that the Gospel must be lived out in community. Founded in Montréal, GRC began as a small gathering of believers who felt called to serve their community with the love of Christ.",
       "p2": "We are a young, Spirit-filled church of about 40 members — diverse in background but united in purpose. We believe the Church is not a building but a people, and that people are called to go.",
       "p3": "We're still writing our story. And we'd love for you to be part of it."
     },
     "timeline": [
-      { "year": "2023", "event": "GRC founded in Namur, Montréal" },
+      { "year": "2023", "event": "GRC founded in Montréal" },
       { "year": "2024", "event": "First street evangelism outreach" },
       { "year": "2024", "event": "Neighbourhood Food Drive launched" },
       { "year": "2025", "event": "Youth Mentorship program begins" },
-      { "year": "2026", "event": "Growing and reaching Namur and beyond" }
+      { "year": "2026", "event": "Growing and reaching the world for Christ" }
     ],
     "cta": "Come see us this Sunday →"
   },
@@ -237,7 +237,7 @@
       "headline": "What We Believe",
       "subtitle": "Our vision, values, and the convictions that guide everything we do."
     },
-    "missionStatement": "To make disciples of all nations, starting right here in Namur — through the proclamation of the Gospel, authentic community, and sacrificial service.",
+    "missionStatement": "To make disciples of all nations, starting right here in our community — through the proclamation of the Gospel, authentic community, and sacrificial service.",
     "statementOfFaith": [
       {
         "title": "The Bible",
@@ -268,7 +268,7 @@
         "text": "We believe Jesus will return personally and visibly to judge the living and the dead and to establish His kingdom forever."
       }
     ],
-    "vision": "We believe Namur is not a forgotten neighbourhood — it is a mission field. GRC exists to be a light in this community: serving the poor, welcoming the stranger, and pointing everyone to Jesus.",
+    "vision": "We believe every community is a mission field. GRC exists to be a light wherever God sends us — serving the poor, welcoming the stranger, and pointing everyone to Jesus.",
     "cta": "Explore our ministries →"
   },
 
@@ -281,7 +281,7 @@
       {
         "name": "Pastor Claude",
         "title": "Lead Pastor",
-        "bio": "Pastor Claude leads GRC with a passion for the Gospel and a heart for the Namur community. He founded the church and is committed to raising disciples who will go and make disciples."
+        "bio": "Pastor Claude leads GRC with a passion for the Gospel and a heart for the community. He founded the church and is committed to raising disciples who will go and make disciples."
       },
       {
         "name": "Pastor Stephane",
@@ -305,7 +305,7 @@
   "ministriesPage": {
     "hero": {
       "headline": "Our Ministries",
-      "subtitle": "Serving Namur and beyond with the love of Christ."
+      "subtitle": "Serving our community and the world with the love of Christ."
     },
     "howToJoin": {
       "title": "How to Get Involved",
@@ -318,15 +318,15 @@
 
   "ministries": {
     "foodDrive": {
-      "tagline": "Fighting hunger in Namur, one family at a time.",
-      "desc": "Our Neighbourhood Food Drive is one of our most visible expressions of Christ's love. Every week, we collect and distribute food to families in need right here in Namur. It's simple, practical, and deeply impactful — and we need your hands.",
+      "tagline": "Fighting hunger in our community, one family at a time.",
+      "desc": "Our Neighbourhood Food Drive is one of our most visible expressions of Christ's love. Every week, we collect and distribute food to families in need right here in our community. It's simple, practical, and deeply impactful — and we need your hands.",
       "whoFor": "Anyone who wants to serve their community practically. No experience required — just a willing heart.",
       "schedule": "Saturdays, 9:00 AM — 5275 Rue Ferrier, Montréal",
       "impact": ["50+ families served monthly", "Weekly distribution", "Open to volunteers of all backgrounds"]
     },
     "streetEvangelism": {
       "tagline": "Taking the Gospel to the streets of our neighbourhood.",
-      "desc": "Street Evangelism is at the heart of who we are. We believe the Gospel must go to where people are — not wait for them to come to us. Every Saturday, we go out into the streets of Namur to share the love and message of Jesus Christ with our neighbours.",
+      "desc": "Street Evangelism is at the heart of who we are. We believe the Gospel must go to where people are — not wait for them to come to us. Every Saturday, we go out into the streets of our community to share the love and message of Jesus Christ with our neighbours.",
       "whoFor": "Anyone with a desire to share their faith. We train and equip all volunteers — you don't need to be an expert, just willing.",
       "schedule": "Saturdays, 10:00 AM — Meeting at 5275 Rue Ferrier",
       "impact": ["Weekly outreach", "Trained team leaders", "Multi-lingual — English & French"]
@@ -347,7 +347,7 @@
     },
     "youthMentorship": {
       "tagline": "Investing in the next generation.",
-      "desc": "Youth Mentorship is our commitment to the young people of Namur. Through relationships, activities, and the Word of God, we walk alongside young people aged 13–25 to help them build a faith that lasts — and a life of purpose.",
+      "desc": "Youth Mentorship is our commitment to the young people in our community. Through relationships, activities, and the Word of God, we walk alongside young people aged 13–25 to help them build a faith that lasts — and a life of purpose.",
       "whoFor": "Youth aged 13–25, and adults who feel called to pour into the next generation.",
       "schedule": "Monthly gatherings + ongoing mentorship — contact us for details",
       "impact": ["Mentors for ages 13–25", "Faith-based life coaching", "Community and belonging"]
@@ -437,7 +437,7 @@
         "description": "A conversation about the call to make disciples and why it matters for every believer, not just pastors."
       },
       {
-        "title": "Stories from the Streets: Evangelism in Namur",
+        "title": "Stories from the Streets: Evangelism in the Community",
         "duration": "24 min",
         "description": "Real stories from our Saturday street evangelism team — encounters, challenges, and moments of grace."
       }
@@ -504,7 +504,7 @@
     "ministries": "Ministries",
     "connectTitle": "Connect",
     "followUs": "Follow Us",
-    "copyright": "© 2025 Gate of Redemption Church — Namur, Montréal",
+    "copyright": "© 2025 Gate of Redemption Church — Montréal, QC",
     "tagline": "Built with faith and purpose."
   }
 }
