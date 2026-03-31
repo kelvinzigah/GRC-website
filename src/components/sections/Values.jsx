@@ -1,5 +1,6 @@
 import { useTranslation } from '../../hooks/useTranslation';
-import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
+import { SectionHeadline } from '../ui/SectionWrapper';
 import { Card } from '../ui/Card';
 
 const CARD_ICONS = [
@@ -19,6 +20,7 @@ const CARD_ICONS = [
 
 export function Values() {
   const { t } = useTranslation();
+  const ref = useScrollAnimation();
 
   const cards = [
     { key: 'card1', icon: CARD_ICONS[0] },
@@ -27,29 +29,50 @@ export function Values() {
   ];
 
   return (
-    <SectionWrapper id="values" dark>
-      <div className="text-center">
-        <SectionHeadline dark>{t('values.headline')}</SectionHeadline>
-        <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-cream/80 italic">
-          {t('values.statement')}
-        </p>
-      </div>
+    <section
+      id="values"
+      ref={ref}
+      className="animate-on-scroll bg-burgundy-dark text-cream"
+    >
+      <div className="flex min-h-[600px] flex-col lg:flex-row">
+        {/* Image — full bleed left panel */}
+        <div className="relative h-72 w-full shrink-0 lg:h-auto lg:w-1/2">
+          <img
+            src="/images/community_3.jpg"
+            alt="GRC community gathered together"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          {/* subtle dark overlay so the right-side bg edge looks intentional */}
+          <div className="absolute inset-0 bg-burgundy-dark/20" />
+        </div>
 
-      <div className="stagger-children mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {cards.map(({ key, icon }) => (
-          <Card key={key} dark className="text-center">
-            <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gold/20 text-gold">
-              {icon}
-            </div>
-            <h3 className="font-serif text-xl font-bold text-cream">
-              {t(`values.${key}.title`)}
-            </h3>
-            <p className="mt-3 leading-relaxed text-cream/75">
-              {t(`values.${key}.desc`)}
-            </p>
-          </Card>
-        ))}
+        {/* Content — right panel */}
+        <div className="flex w-full flex-col justify-center px-8 py-16 lg:w-1/2 lg:px-16 lg:py-20">
+          <SectionHeadline dark>{t('values.headline')}</SectionHeadline>
+
+          <p className="mt-2 mb-10 max-w-lg text-lg leading-relaxed text-cream/80 italic">
+            {t('values.statement')}
+          </p>
+
+          <div className="stagger-children grid gap-6 sm:grid-cols-1">
+            {cards.map(({ key, icon }) => (
+              <Card key={key} dark className="flex items-start gap-4 text-left">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gold/20 text-gold">
+                  {icon}
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg font-bold text-cream">
+                    {t(`values.${key}.title`)}
+                  </h3>
+                  <p className="mt-1 text-sm leading-relaxed text-cream/75">
+                    {t(`values.${key}.desc`)}
+                  </p>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
       </div>
-    </SectionWrapper>
+    </section>
   );
 }
