@@ -30,6 +30,9 @@ export function Values() {
     <SectionWrapper id="values" dark>
       <div className="text-center">
         <SectionHeadline dark>{t('values.headline')}</SectionHeadline>
+        <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-cream/80 italic">
+          {t('values.statement')}
+        </p>
       </div>
 
       <div className="stagger-children mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
