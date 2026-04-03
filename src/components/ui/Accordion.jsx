@@ -9,7 +9,7 @@ function AccordionItem({ title, children, defaultOpen = false }) {
       <button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
-        className="flex w-full items-center justify-between py-4 text-left font-semibold text-cream transition-colors hover:text-amber"
+        className="flex w-full items-center justify-between py-4 text-left font-semibold text-cream transition-colors hover:text-amber focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2"
         aria-expanded={open}
       >
         <span>{title}</span>

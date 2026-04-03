@@ -238,7 +238,39 @@
       "headline": "What We Believe",
       "subtitle": "Our vision, values, and the convictions that guide everything we do."
     },
-    "missionStatement": "To make disciples of all nations, starting right here in our community — through the proclamation of the Gospel, authentic community, and sacrificial service.",
+    "vision": {
+      "sectionLabel": "Our Vision",
+      "text": "To lead people into true redemption through Jesus Christ and to raise Spirit-filled disciples who fulfill the Great Commission",
+      "scripture": "John 3:3; Matthew 28:18-20"
+    },
+    "mission": {
+      "sectionLabel": "Our Mission",
+      "text": "To preach the gospel, make disciples, and equip believers to grow, serve, and walk in their God-given calling",
+      "scripture": "Ephesians 4:11-13"
+    },
+    "heartOfFaith": "Freed, we believe God restores and infinitely transforms the heart, whatever the past. No chain too heavy, no past too dark for God to change.",
+    "values": {
+      "headline": "Our Core Values",
+      "items": [
+        { "title": "Prayer & Fasting", "desc": "We believe in the power of fervent prayer and fasting to align our hearts with God's will and strengthen our spiritual foundation." },
+        { "title": "Living & Teaching God's Word Without Compromise", "desc": "Scripture is our foundation. We teach and live by God's Word in all its fullness, uncompromised and unashamed." },
+        { "title": "Evangelism & Discipleship", "desc": "Every believer is called to share the Gospel and make disciples — the heartbeat of our mission." },
+        { "title": "Love & Unity", "desc": "We pursue genuine community rooted in Christ's love, celebrating diversity while walking in unity of spirit." },
+        { "title": "Holiness & Integrity", "desc": "We are committed to lives set apart for God, with honesty and faithfulness in all we do." },
+        { "title": "Spirit-Led Living & Serving", "desc": "We yield to the Holy Spirit's guidance in all our decisions, actions, and service. (Hebrews 13:8-9)" }
+      ]
+    },
+    "pillars": {
+      "headline": "Our Ministry Pillars",
+      "items": [
+        { "title": "Great Commission" },
+        { "title": "Church Planting" },
+        { "title": "Discipleship" },
+        { "title": "Greatest Commandment" },
+        { "title": "Serve the Community" }
+      ]
+    },
+    "statementOfFaithHeadline": "Statement of Faith",
     "statementOfFaith": [
       {
         "title": "The Bible",
@@ -269,8 +301,12 @@
         "text": "We believe Jesus will return personally and visibly to judge the living and the dead and to establish His kingdom forever."
       }
     ],
-    "vision": "We believe every community is a mission field. GRC exists to be a light wherever God sends us — serving the poor, welcoming the stranger, and pointing everyone to Jesus.",
-    "cta": "Explore our ministries →"
+    "cta": {
+      "headline": "Believe what we believe?",
+      "subtitle": "Come serve alongside us in Montreal.",
+      "primary": "Explore Our Ministries →",
+      "secondary": "Meet the Team →"
+    }
   },
 
   "team": {

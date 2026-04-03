@@ -59,3 +59,78 @@ This project's session history and evolving context live in the Obsidian vault:
 - **Changelog**: `/home/kelvin/Documents/vault/projects/GRC_website/CHANGELOG.md`
 
 Use `/resume-session` at session start to load context. Use `/sync-session` at session end to log changes.
+
+---
+
+## Multi-Agent Team Workflow
+
+This project uses three sub-agents coordinated by the Manager (main Claude session). Agent files live in `.claude/agents/`.
+
+### Team Roster
+
+| Agent | File | Role | Access |
+|-------|------|------|--------|
+| Manager | (main session) | Orchestrates, approves, commits | All |
+| grc-architect | `.claude/agents/grc-architect.md` | Plans features, enforces design quality | Read-only |
+| grc-builder | `.claude/agents/grc-builder.md` | Implements approved plans | Edit/Write/Bash (no commit, no dev server) |
+| grc-reviewer | `.claude/agents/grc-reviewer.md` | QA: Playwright, brand, bilingual, accessibility | Bash + Playwright (no edits) |
+
+### Mandatory Loop (no exceptions)
+
+```
+1.  Manager defines task
+2.  Manager → Architect: "Plan [task]. Read [relevant files]. Use Stitch + /ui-ux-pro-max."
+3.  Architect → Manager: complete plan (7 sections)
+4.  Manager reviews plan — approve or revise
+5.  Manager → Builder: "Implement this approved plan: [paste plan]"
+6.  Builder → Manager: "BUILDER COMPLETE — N files modified"
+7.  Manager → Reviewer: "Review [feature] against this plan: [paste plan]"
+8.  Reviewer → Manager: PASS / FAIL / CONDITIONAL PASS report
+9a. If FAIL → Manager → Builder: specific issues only (not full re-implementation)
+9b. If PASS → proceed to step 10
+10. Manager: /sync-session → /compact → git commit
+```
+
+### Invocation Templates
+
+**Dispatch to Architect:**
+```
+Use grc-architect to plan: [describe feature].
+Read these files first: [list relevant files].
+Use Google Stitch and /ui-ux-pro-max for design references.
+Return your complete 7-section plan. Do NOT implement anything.
+```
+
+**Dispatch to Builder:**
+```
+Use grc-builder to implement the following Manager-approved plan exactly as written.
+Do not deviate. If a step is impossible, stop and report back.
+[PASTE COMPLETE ARCHITECT PLAN]
+```
+
+**Dispatch to Reviewer:**
+```
+Use grc-reviewer to QA the [feature name] implementation.
+Architect's plan for compliance checking:
+[PASTE PLAN]
+Run all 9 checks. Report findings — do not fix anything.
+```
+
+### Session End (after every Reviewer PASS)
+
+```bash
+/sync-session        # Update vault CONTEXT.md + CHANGELOG.md
+/compact             # Compress context window
+# Then commit specific files — never git add -A:
+git add src/components/... src/i18n/en.json src/i18n/fr.json
+git commit -m "feat(section): description of what changed"
+```
+
+### Prerequisite: ui-ux-pro-max Skill
+
+The Architect requires this skill. If not yet installed:
+```bash
+npm install -g uipro-cli && uipro init --ai claude
+# or: /plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
+```
+Installs to `~/.claude/skills/ui-ux-pro-max/`. Invoked as `/ui-ux-pro-max` in Architect prompts.

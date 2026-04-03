@@ -238,7 +238,39 @@
       "headline": "Ce que nous croyons",
       "subtitle": "Notre vision, nos valeurs et les convictions qui guident tout ce que nous faisons."
     },
-    "missionStatement": "Faire des disciples de toutes les nations, en commençant ici dans notre communauté — par la proclamation de l'Évangile, une communauté authentique et un service sacrificiel.",
+    "vision": {
+      "sectionLabel": "Notre Vision",
+      "text": "Conduire les gens vers la véritable rédemption par Jésus-Christ et former des disciples remplis de l'Esprit qui accomplissent le Grand Mandat",
+      "scripture": "Jean 3:3 ; Matthieu 28:18-20"
+    },
+    "mission": {
+      "sectionLabel": "Notre Mission",
+      "text": "Prêcher l'Évangile, faire des disciples et équiper les croyants pour grandir, servir et marcher dans leur vocation donnée par Dieu",
+      "scripture": "Éphésiens 4:11-13"
+    },
+    "heartOfFaith": "Libéré, nous croyons que Dieu restaure, infini et transforme le cœur, quel que soit le passé. Pas de chaîne trop lourde, pas de passé trop sombre, que Dieu ne puisse changer.",
+    "values": {
+      "headline": "Nos valeurs fondamentales",
+      "items": [
+        { "title": "Prière et jeûne", "desc": "Nous croyons à la puissance de la prière fervente et du jeûne pour aligner nos cœurs avec la volonté de Dieu et renforcer notre fondation spirituelle." },
+        { "title": "Vivre et enseigner la Parole de Dieu sans compromis", "desc": "L'Écriture est notre fondation. Nous enseignons et vivons par la Parole de Dieu dans toute sa plénitude, sans compromis et sans honte." },
+        { "title": "Évangélisation et discipulat", "desc": "Chaque croyant est appelé à partager l'Évangile et faire des disciples — le cœur battant de notre mission." },
+        { "title": "Amour et unité", "desc": "Nous poursuivons une véritable communauté enracinée dans l'amour du Christ, célébrant notre diversité tout en marchant dans l'unité de l'esprit." },
+        { "title": "Sainteté et intégrité", "desc": "Nous nous engageons à vivre des vies consacrées à Dieu, avec honnêteté et fidélité en tout ce que nous faisons." },
+        { "title": "Vivre et servir sous la direction de l'Esprit", "desc": "Nous nous soumettons à la direction du Saint-Esprit dans toutes nos décisions, actions et service. (Hébreux 13:8-9)" }
+      ]
+    },
+    "pillars": {
+      "headline": "Nos piliers de ministère",
+      "items": [
+        { "title": "Grand Mandat" },
+        { "title": "Plantation d'Églises" },
+        { "title": "Discipulat" },
+        { "title": "Plus Grand Commandement" },
+        { "title": "Servir la Communauté" }
+      ]
+    },
+    "statementOfFaithHeadline": "Déclaration de foi",
     "statementOfFaith": [
       {
         "title": "La Bible",
@@ -269,8 +301,12 @@
         "text": "Nous croyons que Jésus reviendra personnellement et visiblement pour juger les vivants et les morts et établir son royaume pour toujours."
       }
     ],
-    "vision": "Nous croyons que chaque communauté est un champ missionnaire. GRC existe pour être une lumière là où Dieu nous envoie — servir les pauvres, accueillir l'étranger et pointer tout le monde vers Jésus.",
-    "cta": "Découvrez nos ministères →"
+    "cta": {
+      "headline": "Croyez-vous ce que nous croyons ?",
+      "subtitle": "Venez servir aux côtés de nous à Montréal.",
+      "primary": "Découvrez nos ministères →",
+      "secondary": "Rencontrez l'équipe →"
+    }
   },
 
   "team": {
