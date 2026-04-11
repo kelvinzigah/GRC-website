@@ -29,7 +29,8 @@
     "headline": "Bienvenue à GRC",
     "p1": "L'Église Porte de la Rédemption est une jeune église remplie de l'Esprit d'environ 40 membres à Montréal. Nous sommes passionnés par le Grand Mandat — faire des disciples, partager l'Évangile et servir notre communauté.",
     "p2": "Nous sommes nouveaux ici, mais notre mission ne l'est pas. Tout le monde est le bienvenu.",
-    "cta": "Nouveau ici ? Nous aimerions vous rencontrer →"
+    "cta": "Nouveau ici ? Nous aimerions vous rencontrer →",
+    "ourStoryCta": "Notre histoire →"
   },
   "services": {
     "headline": "Rejoignez-nous",
@@ -230,7 +231,18 @@
       { "year": "2025", "event": "Début du programme de mentorat jeunesse" },
       { "year": "2026", "event": "En croissance, rayonnant pour Christ dans le monde" }
     ],
-    "cta": "Venez nous rendre visite ce dimanche →"
+    "cta": "Venez nous rendre visite ce dimanche →",
+    "headline": "Notre histoire",
+    "founding": "L'Église Porte de la Rédemption a été fondée en 2025 par le Pasteur Claude Hakizimana — mais l'histoire commence bien avant cela.",
+    "missionary": "Le Pasteur Claude avait un désir profond de voir les gens rencontrer Jésus. Pas seulement en parler — y aller vraiment. Cela l'a conduit à fonder un groupe missionnaire, voyageant à travers différentes nations, partageant l'Évangile et accompagnant des gens dans leur découverte de la foi. Des âmes ont été gagnées, des leaders formés, et des églises plantées dans des endroits non atteints.",
+    "scriptureText": "Celui qui est fidèle dans les petites choses le sera aussi dans les grandes.",
+    "scriptureCitation": "— Luc 16:10",
+    "birth": "C'est lors d'un de ces voyages que Dieu a mis quelque chose de nouveau dans son cœur : GRC. Un lieu où ceux qui cherchent un refuge face aux fardeaux de ce monde pourraient le trouver aux pieds de la croix, avec le même cœur pour le monde qui a tout commencé.",
+    "roots": "Ainsi, GRC est née. Bâtie par ces mêmes missionnaires avec le cœur d'accomplir le Grand Mandat. Nos racines sont dans l'œuvre missionnaire, et cela façonne tout notre façon de faire Église. Nous ne sommes pas seulement là pour notre ville ou notre pays. Nous ne nous reposerons pas tant que le monde entier n'aura pas entendu la Bonne Nouvelle de Jésus-Christ.",
+    "grace": "Nous croyons que Dieu restaure, libère et transforme les vies par Sa grâce. Il n'y a pas de chaîne trop lourde, pas de passé trop sombre, qu'Il ne puisse changer. Beaucoup d'entre nous à GRC savent ce que signifie recevoir Sa grâce.",
+    "ctaLabel": "Venez comme vous êtes →",
+    "imageAltEvangelism": "Équipe missionnaire de GRC partageant l'Évangile",
+    "imageAltTogetherness": "Communauté GRC réunie ensemble"
   },
 
   "visionValues": {

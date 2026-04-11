@@ -1,6 +1,6 @@
 import { useTranslation } from '../../hooks/useTranslation';
 import { SectionWrapper, SectionHeadline } from '../ui/SectionWrapper';
-import { Button, LinkButton } from '../ui/Button';
+import { Button } from '../ui/Button';
 
 export function About() {
   const { t } = useTranslation();
@@ -21,9 +21,13 @@ export function About() {
             <Button variant="ghost" onClick={() => document.querySelector('#connect')?.scrollIntoView({ behavior: 'smooth' })}>
               {t('about.cta')}
             </Button>
-            <LinkButton to="/about/our-story" variant="outlineDark" size="sm">
-              Our Story →
-            </LinkButton>
+            <Button
+              variant="outlineDark"
+              size="sm"
+              onClick={() => document.querySelector('#our-story')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              {t('about.ourStoryCta')}
+            </Button>
           </div>
         </div>
 

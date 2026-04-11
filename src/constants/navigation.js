@@ -47,6 +47,7 @@ export const NAV_LINKS_RIGHT = [
 export const SECTION_IDS = [
   'hero',
   'about',
+  'our-story',
   'services',
   'values',
   'ministries',

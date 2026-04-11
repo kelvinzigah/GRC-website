@@ -29,7 +29,8 @@
     "headline": "Welcome to GRC",
     "p1": "Gate of Redemption Church is a young, Spirit-filled church of about 40 members in Montréal. We are passionate about the Great Commission — making disciples, sharing the Gospel, and serving our community.",
     "p2": "We're new here, but our mission isn't. Everyone is welcome.",
-    "cta": "New Here? We'd love to meet you →"
+    "cta": "New Here? We'd love to meet you →",
+    "ourStoryCta": "Our Story →"
   },
   "services": {
     "headline": "Join Us",
@@ -230,7 +231,18 @@
       { "year": "2025", "event": "Youth Mentorship program begins" },
       { "year": "2026", "event": "Growing and reaching the world for Christ" }
     ],
-    "cta": "Come see us this Sunday →"
+    "cta": "Come see us this Sunday →",
+    "headline": "Our Story",
+    "founding": "Gate of Redemption Church was founded in 2025 by Pastor Claude Hakizimana — but the story really starts before that.",
+    "missionary": "Pastor Claude had a deep desire to see people come to know Jesus. Not just talk about it — actually go. That led him to start a missionary group, traveling across different nations, sharing the Gospel and walking alongside people as they discovered faith. Souls were won, leaders were trained, and churches were planted in unreached places.",
+    "scriptureText": "Whoever is faithful with little will also be faithful with much.",
+    "scriptureCitation": "— Luke 16:10",
+    "birth": "It was during one of those trips that God put something new on his heart: GRC. A place where people looking for solace from the burdens of this world could find it at the feet of the cross, carrying the same heart for the world that started everything.",
+    "roots": "So GRC was born. Built by the same missionaries with the heart to fulfill the Great Commission. Our roots are in missionary work, and that shapes everything about how we do church. We're not just here for our city or our country. We will not rest until the entire world comes to know the Good News of Jesus Christ.",
+    "grace": "We believe God restores, liberates and transforms lives by His grace. There is no chain too heavy, no past too dark, that He cannot change. A lot of us at GRC know what it means to be on the receiving end of His grace.",
+    "ctaLabel": "Come as you are →",
+    "imageAltEvangelism": "GRC missionary team sharing the Gospel",
+    "imageAltTogetherness": "GRC community gathered together"
   },
 
   "visionValues": {
