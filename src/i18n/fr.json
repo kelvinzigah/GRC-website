@@ -10,6 +10,7 @@
     "smallGroups": "Petits groupes",
     "discipleshipMentorship": "Mentorat de disciples",
     "youthMentorship": "Mentorat jeunesse",
+    "missions": "Missions",
     "contact": "Contact",
     "events": "Événements",
     "media": "Médias",
@@ -242,7 +243,22 @@
     "grace": "Nous croyons que Dieu restaure, libère et transforme les vies par Sa grâce. Il n'y a pas de chaîne trop lourde, pas de passé trop sombre, qu'Il ne puisse changer. Beaucoup d'entre nous à GRC savent ce que signifie recevoir Sa grâce.",
     "ctaLabel": "Venez comme vous êtes →",
     "imageAltEvangelism": "Équipe missionnaire de GRC partageant l'Évangile",
-    "imageAltTogetherness": "Communauté GRC réunie ensemble"
+    "imageAltTogetherness": "Communauté GRC réunie ensemble",
+    "eyebrow": "Fondée en 2025",
+    "visionHeadline": "La vision",
+    "historyHeadline": "Notre parcours",
+    "narrativeHeadline1": "D'un appel à une mission",
+    "narrativeHeadline2": "Bâtir l'Église",
+    "believeHeadline": "Ce en quoi nous croyons",
+    "believeCard1Title": "Dieu restaure",
+    "believeCard1Body": "Il n'y a pas de chaîne trop lourde, pas de passé trop sombre, que Dieu ne puisse changer. Sa grâce va plus loin que toute brisure.",
+    "believeCard2Title": "Faits pour la communauté",
+    "believeCard2Body": "Nous n'avons jamais été faits pour marcher seuls. GRC existe pour être un lieu d'appartenance pour chaque personne qui franchit nos portes.",
+    "believeCard3Title": "Envoyés dans le monde",
+    "believeCard3Body": "Nos racines sont dans l'œuvre missionnaire. Nous ne sommes pas seulement là pour notre ville — nous existons pour les nations.",
+    "ctaHeadline": "Faites partie du prochain chapitre",
+    "ctaBody": "Notre histoire est encore en train de s'écrire, et il y a une place pour vous dans cette histoire. Venez découvrir la communauté que vous cherchiez.",
+    "ctaMeetTeam": "Rencontrer l'équipe →"
   },
 
   "visionValues": {
@@ -400,6 +416,49 @@
       "whoFor": "Les jeunes de 13 à 25 ans, et les adultes qui se sentent appelés à investir dans la prochaine génération.",
       "schedule": "Rassemblements mensuels + mentorat continu — contactez-nous pour les détails",
       "impact": ["Mentors pour les 13–25 ans", "Coaching de vie basé sur la foi", "Communauté et appartenance"]
+    }
+  },
+
+  "missions": {
+    "storytelling": {
+      "subLabel": "Là où tout commence",
+      "heading": "Notre façon d'atteindre le monde",
+      "body1": "GRC forme des croyants ordinaires à l'évangélisation — en leur donnant les outils, la confiance et les bases bibliques pour partager leur foi dans les rues et dans leurs communautés. Il n'est pas nécessaire d'être pasteur pour rejoindre son voisin.",
+      "body2": "Grâce à cette formation, quelque chose de remarquable se produit : des Églises sont plantées. Des évangélistes deviennent des leaders. Des communautés sont transformées. Ce modèle de multiplication est au cœur de tout ce que GRC accomplit en missions.",
+      "pullQuote": "Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit.",
+      "pullQuoteCitation": "Matthieu 28:19 NBS",
+      "imageAlt1": "Diplômés d'une formation en évangélisation tenant des matériaux de discipulat",
+      "imageAlt2": "Cercle de prière lors d'une évangélisation de rue"
+    },
+    "darkStory": {
+      "subLabel": "Le cœur de notre vision",
+      "heading": "Planter des Églises, multiplier la foi",
+      "body": "La vision de GRC pour les missions n'est pas un événement ponctuel — c'est un modèle de multiplication à long terme. Former quelqu'un, qui forme plusieurs autres, qui plantent des Églises. Chaque nouvelle Église devient une base d'envoi. Voilà comment la Grande Mission s'accomplit — non pas par un héros, mais par une communauté de gens ordinaires qui croient que l'Évangile change tout.",
+      "stat1Number": "85+",
+      "stat1Label": "Évangélistes formés",
+      "stat2Number": "10+",
+      "stat2Label": "Églises plantées",
+      "imageAlt": "Grand rassemblement d'une Église plantée par les missions GRC"
+    },
+    "grid": {
+      "subLabel": "Comment nous travaillons",
+      "heading": "Deux piliers de notre travail missionnaire",
+      "item1Heading": "Formation en évangélisation",
+      "item1Body": "Nous organisons régulièrement des séances de formation équipant les croyants avec des outils, la confiance et les bases bibliques pour partager leur foi. Du porte-à-porte à l'évangélisation de rue — nous formons et nous y allons.",
+      "item1ImageAlt": "Responsables d'équipe lors d'une séance de formation en évangélisation",
+      "item2Heading": "Plantation d'Églises",
+      "item2Body": "Chaque évangéliste formé est un planteur d'Église en puissance. Notre stratégie missionnaire repose sur la conviction que des Églises solides se multiplient — et que c'est ainsi que le monde est atteint.",
+      "item2ImageAlt": "Prière et imposition des mains lors d'un rassemblement de plantation d'Église"
+    },
+    "cta": {
+      "headline": "Faites partie de ce que Dieu accomplit",
+      "subtext": "La mission ne s'arrête pas à nos portes. Il existe des moyens concrets de s'impliquer — où que vous soyez.",
+      "giveHeading": "Donner aux missions",
+      "giveBody": "Votre don va directement aux matériaux de formation, aux événements d'évangélisation et au soutien des évangélistes sur le terrain. Chaque dollar envoyé est un disciple équipé.",
+      "giveButton": "Donner aux missions",
+      "goHeading": "Partir en mission",
+      "goBody": "Il n'est pas nécessaire d'aller loin pour être en mission. Localement ou à l'international, nous voulons vous envoyer. Parlez-nous de la façon de vous impliquer.",
+      "goButton": "Nous contacter"
     }
   },
 

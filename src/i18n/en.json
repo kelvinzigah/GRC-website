@@ -10,6 +10,7 @@
     "smallGroups": "Small Groups",
     "discipleshipMentorship": "Discipleship Mentorship",
     "youthMentorship": "Youth Mentorship",
+    "missions": "Missions",
     "contact": "Contact",
     "events": "Events",
     "media": "Media",
@@ -242,7 +243,22 @@
     "grace": "We believe God restores, liberates and transforms lives by His grace. There is no chain too heavy, no past too dark, that He cannot change. A lot of us at GRC know what it means to be on the receiving end of His grace.",
     "ctaLabel": "Come as you are →",
     "imageAltEvangelism": "GRC missionary team sharing the Gospel",
-    "imageAltTogetherness": "GRC community gathered together"
+    "imageAltTogetherness": "GRC community gathered together",
+    "eyebrow": "Est. 2025",
+    "visionHeadline": "The Vision",
+    "historyHeadline": "Our History",
+    "narrativeHeadline1": "From a Calling to a Mission",
+    "narrativeHeadline2": "Building the Church",
+    "believeHeadline": "What We Believe",
+    "believeCard1Title": "God Restores",
+    "believeCard1Body": "There is no chain too heavy, no past too dark, that He cannot change. His grace reaches further than any brokenness.",
+    "believeCard2Title": "Made for Community",
+    "believeCard2Body": "We were never meant to walk alone. GRC exists to be a place of belonging for every person who walks through our doors.",
+    "believeCard3Title": "Sent into the World",
+    "believeCard3Body": "Our roots are in missionary work. We are not just here for our city — we exist for the nations.",
+    "ctaHeadline": "Be Part of the Next Chapter",
+    "ctaBody": "Our story is still being written, and there is a place for you in it. Come and discover the community you've been looking for.",
+    "ctaMeetTeam": "Meet the Team →"
   },
 
   "visionValues": {
@@ -400,6 +416,49 @@
       "whoFor": "Youth aged 13–25, and adults who feel called to pour into the next generation.",
       "schedule": "Monthly gatherings + ongoing mentorship — contact us for details",
       "impact": ["Mentors for ages 13–25", "Faith-based life coaching", "Community and belonging"]
+    }
+  },
+
+  "missions": {
+    "storytelling": {
+      "subLabel": "Where It Begins",
+      "heading": "Our Way of Reaching the World",
+      "body1": "GRC trains everyday believers in evangelism — giving them the tools, the confidence, and the biblical grounding to share their faith on the streets and in their communities. You don't have to be a pastor to reach your neighbour.",
+      "body2": "Through that training, something remarkable happens: churches get planted. Evangelists become leaders. Communities are transformed. This multiplication model is at the heart of everything GRC does in missions.",
+      "pullQuote": "Therefore go and make disciples of all nations, baptising them in the name of the Father and of the Son and of the Holy Spirit.",
+      "pullQuoteCitation": "Matthew 28:19 NIV",
+      "imageAlt1": "Evangelism training graduates holding discipleship materials",
+      "imageAlt2": "Street evangelism prayer circle"
+    },
+    "darkStory": {
+      "subLabel": "The Heart Behind It All",
+      "heading": "Planting Churches, Multiplying Faith",
+      "body": "GRC's vision for missions isn't a one-time event — it's a long-term multiplication model. Train one, who trains many, who plants churches. Each new church becomes a sending station. This is how the Great Commission gets done — not by one hero, but by a community of ordinary people who believe the Gospel changes everything.",
+      "stat1Number": "85+",
+      "stat1Label": "Evangelists Trained",
+      "stat2Number": "10+",
+      "stat2Label": "Churches Planted",
+      "imageAlt": "Large church gathering planted through GRC missions"
+    },
+    "grid": {
+      "subLabel": "How We Work",
+      "heading": "Two Pillars of Our Missions Work",
+      "item1Heading": "Evangelism Training",
+      "item1Body": "We run regular training sessions equipping believers with tools, confidence, and biblical grounding to share their faith. From door-to-door outreach to street evangelism — we train and we go.",
+      "item1ImageAlt": "Mission team leaders in an evangelism training session",
+      "item2Heading": "Church Planting",
+      "item2Body": "Every trained evangelist is a potential church planter. Our missions strategy is built on the belief that strong churches multiply — and that this is how the world gets reached.",
+      "item2ImageAlt": "Prayer and laying on of hands during a church planting gathering"
+    },
+    "cta": {
+      "headline": "Be Part of What God is Doing",
+      "subtext": "The mission doesn't stop at our doors. There are practical ways to get involved — wherever you are.",
+      "giveHeading": "Give to Missions",
+      "giveBody": "Your giving goes directly to training materials, outreach events, and supporting evangelists on the ground. Every dollar sent is a disciple equipped.",
+      "giveButton": "Give to Missions",
+      "goHeading": "Go on Mission",
+      "goBody": "You don't have to go far to be on mission. Whether locally or globally, we want to send you. Talk to us about how to get involved.",
+      "goButton": "Get In Touch"
     }
   },
 
