@@ -12,6 +12,7 @@ const VisionValuesPage = lazy(() => import('./pages/about/VisionValuesPage'));
 const MeetTheTeamPage = lazy(() => import('./pages/about/MeetTheTeamPage'));
 const MinistriesPage = lazy(() => import('./pages/ministries/MinistriesPage'));
 const MinistryDetailPage = lazy(() => import('./pages/ministries/MinistryDetailPage'));
+const MissionsPage = lazy(() => import('./pages/ministries/MissionsPage'));
 const EventsPage = lazy(() => import('./pages/events/EventsPage'));
 const MediaPage = lazy(() => import('./pages/media/MediaPage'));
 const SermonsPage = lazy(() => import('./pages/media/SermonsPage'));
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
               <Route path="about/vision-values" element={<VisionValuesPage />} />
               <Route path="about/meet-the-team" element={<MeetTheTeamPage />} />
               <Route path="ministries" element={<MinistriesPage />} />
+              <Route path="ministries/missions" element={<MissionsPage />} />
               <Route path="ministries/:slug" element={<MinistryDetailPage />} />
               <Route path="events" element={<EventsPage />} />
               <Route path="media" element={<MediaPage />} />

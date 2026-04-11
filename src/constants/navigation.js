@@ -23,6 +23,7 @@ export const NAV_LINKS_LEFT = [
       { key: 'small-groups', labelKey: 'nav.smallGroups', href: '/ministries/small-groups', type: 'route' },
       { key: 'discipleship-mentorship', labelKey: 'nav.discipleshipMentorship', href: '/ministries/discipleship-mentorship', type: 'route' },
       { key: 'youth-mentorship', labelKey: 'nav.youthMentorship', href: '/ministries/youth-mentorship', type: 'route' },
+      { key: 'missions', labelKey: 'nav.missions', href: '/ministries/missions', type: 'route' },
     ],
   },
   { key: 'events', labelKey: 'nav.events', href: '/events', type: 'route' },

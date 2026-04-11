@@ -1,6 +1,5 @@
 import { Hero } from '../components/sections/Hero';
 import { About } from '../components/sections/About';
-import { OurStory } from '../components/sections/OurStory';
 import { ServiceTimes } from '../components/sections/ServiceTimes';
 import { Values } from '../components/sections/Values';
 import { PhotoReel } from '../components/sections/PhotoReel';
@@ -17,7 +16,6 @@ export default function HomePage() {
     <>
       <Hero />
       <About />
-      <OurStory />
       <ServiceTimes />
       <Values />
       <PhotoReel />

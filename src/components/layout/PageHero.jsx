@@ -9,6 +9,7 @@ export function PageHero({
   subtitle,
   backgroundImage,
   imageAlt = '',
+  imagePosition = 'object-center',
   children,
   className,
 }) {
@@ -25,7 +26,7 @@ export function PageHero({
           <img
             src={backgroundImage}
             alt={imageAlt}
-            className="absolute inset-0 h-full w-full object-cover"
+            className={cn('absolute inset-0 h-full w-full object-cover', imagePosition)}
           />
           <div className="absolute inset-0 bg-burgundy-dark/75" />
         </>

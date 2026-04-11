@@ -32,7 +32,7 @@ export function LinkButton({
     <Link
       to={to}
       className={cn(
-        'inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-300',
+        'inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2',
         variants[variant],
         sizes[size],
         className
@@ -53,7 +53,7 @@ export function Button({
   return (
     <button
       className={cn(
-        'inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-300 cursor-pointer',
+        'inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-300 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2',
         variants[variant],
         sizes[size],
         className
