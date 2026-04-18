@@ -5,9 +5,6 @@ import { PhotoReel } from '../components/sections/PhotoReel';
 import { Outreach } from '../components/sections/Outreach';
 import { Events } from '../components/sections/Events';
 import { FeaturedEpisode } from '../components/sections/FeaturedEpisode';
-import { Gallery } from '../components/sections/Gallery';
-import { JoinTeam } from '../components/sections/JoinTeam';
-import { Connect } from '../components/sections/Connect';
 import { Contact } from '../components/sections/Contact';
 
 export default function HomePage() {
@@ -20,9 +17,6 @@ export default function HomePage() {
       <Outreach />
       <Events />
       <FeaturedEpisode />
-      <Gallery />
-      <JoinTeam />
-      <Connect />
       <Contact />
     </>
   );
