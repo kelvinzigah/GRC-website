@@ -24,7 +24,19 @@
     "reference": "— Jean 10:9 S21",
     "subtitle": "Une communauté enracinée dans l'Évangile, portant l'amour du Christ à tous.",
     "cta1": "Rejoignez-nous dimanche",
-    "cta2": "En savoir plus"
+    "cta2": "En savoir plus",
+    "headline": "Bienvenue à GRC !",
+    "heroSubtitle": "Nous sommes heureux de vous accueillir ! Joignez-vous à notre mission : faire des disciples, partager l'Évangile et servir notre communauté.",
+    "planVisit": "Planifier ma visite",
+    "bgImageAlt": "La communauté GRC célébrant un baptême",
+    "scrollDown": "Défiler vers le bas"
+  },
+  "infoBar": {
+    "seeYouSoon": "À bientôt !",
+    "serviceLabel": "Culte du dimanche",
+    "addressAriaLabel": "Ouvrir l'adresse dans Google Maps",
+    "planVisit": "Planifier ma visite",
+    "cardImageAlt": "Pasteur prêchant à la chaire lors du culte du dimanche"
   },
   "about": {
     "headline": "Bienvenue à GRC",

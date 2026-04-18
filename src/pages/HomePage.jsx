@@ -1,6 +1,5 @@
 import { Hero } from '../components/sections/Hero';
-import { About } from '../components/sections/About';
-import { ServiceTimes } from '../components/sections/ServiceTimes';
+import { InfoBar } from '../components/sections/InfoBar';
 import { Values } from '../components/sections/Values';
 import { PhotoReel } from '../components/sections/PhotoReel';
 import { Outreach } from '../components/sections/Outreach';
@@ -15,8 +14,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <About />
-      <ServiceTimes />
+      <InfoBar />
       <Values />
       <PhotoReel />
       <Outreach />

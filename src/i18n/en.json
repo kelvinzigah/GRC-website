@@ -24,7 +24,19 @@
     "reference": "— John 10:9 NIV",
     "subtitle": "A community rooted in the Gospel, bringing the love of Christ to all.",
     "cta1": "Join Us Sunday",
-    "cta2": "Learn More"
+    "cta2": "Learn More",
+    "headline": "Welcome to GRC!",
+    "heroSubtitle": "We're happy you're here! Join our mission to make disciples, share the Gospel and serve our Community.",
+    "planVisit": "Plan a Visit",
+    "bgImageAlt": "GRC community celebrating baptism",
+    "scrollDown": "Scroll down"
+  },
+  "infoBar": {
+    "seeYouSoon": "See you soon!",
+    "serviceLabel": "Sunday Service",
+    "addressAriaLabel": "Open church address in Google Maps",
+    "planVisit": "Plan a Visit",
+    "cardImageAlt": "Pastor preaching at the pulpit during Sunday service"
   },
   "about": {
     "headline": "Welcome to GRC",
