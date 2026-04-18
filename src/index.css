@@ -61,6 +61,12 @@
   animation-play-state: paused;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .events-video-bg {
+    display: none;
+  }
+}
+
 /* Chevron bounce animation */
 @keyframes bounce-slow {
   0%, 100% { transform: translateY(0); }

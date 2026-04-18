@@ -8,6 +8,7 @@ export function PageHero({
   headline,
   subtitle,
   backgroundImage,
+  backgroundVideo,
   imageAlt = '',
   imagePosition = 'object-center',
   children,
@@ -20,8 +21,25 @@ export function PageHero({
         className
       )}
     >
+      {/* Background video with overlay */}
+      {backgroundVideo && (
+        <>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            aria-hidden="true"
+            tabIndex={-1}
+            className="absolute inset-0 h-full w-full object-cover"
+          >
+            <source src={backgroundVideo} type="video/mp4" />
+          </video>
+        </>
+      )}
+
       {/* Background image with overlay */}
-      {backgroundImage && (
+      {backgroundImage && !backgroundVideo && (
         <>
           <img
             src={backgroundImage}
@@ -32,8 +50,8 @@ export function PageHero({
         </>
       )}
 
-      {/* Gradient decoration (shown when no image) */}
-      {!backgroundImage && (
+      {/* Gradient decoration (shown when no image and no video) */}
+      {!backgroundImage && !backgroundVideo && (
         <div className="absolute inset-0 bg-gradient-to-br from-burgundy-dark via-burgundy to-burgundy-dark opacity-90" />
       )}
 

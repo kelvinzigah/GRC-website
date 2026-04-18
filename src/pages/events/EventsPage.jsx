@@ -59,8 +59,8 @@ export default function EventsPage() {
       <PageHero
         headline={t('eventsPage.hero.headline')}
         subtitle={t('eventsPage.hero.subtitle')}
-        backgroundImage="/images/togetherness_1.jpg"
-        imageAlt="GRC community worship"
+        backgroundVideo="/videos/events_background_5.mp4"
+        className="min-h-[75vh] mt-16"
       />
 
       {/* Weekly services — always first, drives Sunday attendance */}

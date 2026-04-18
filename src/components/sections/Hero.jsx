@@ -35,7 +35,7 @@ export function Hero() {
             {t('hero.heroSubtitle')}
           </p>
           <div className="mt-8">
-            <Button variant="primary" size="lg" onClick={handleScroll('#connect')}>
+            <Button variant="primary" size="lg" onClick={handleScroll('#contact')}>
               {t('hero.planVisit')}
             </Button>
           </div>

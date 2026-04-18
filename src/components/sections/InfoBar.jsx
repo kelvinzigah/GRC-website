@@ -63,7 +63,7 @@ export function InfoBar() {
               <Button
                 variant="primary"
                 size="md"
-                onClick={() => document.querySelector('#connect')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 {t('infoBar.planVisit')}
               </Button>

@@ -7,18 +7,27 @@ const MONTH_ABBR = {
   January: 'JAN', February: 'FEB', March: 'MAR', April: 'APR',
   May: 'MAY', June: 'JUN', July: 'JUL', August: 'AUG',
   September: 'SEP', October: 'OCT', November: 'NOV', December: 'DEC',
+  Janvier: 'JAN', Février: 'FÉV', Mars: 'MAR', Avril: 'AVR',
+  Mai: 'MAI', Juin: 'JUN', Juillet: 'JUL', Août: 'AOÛ',
+  Septembre: 'SEP', Octobre: 'OCT', Novembre: 'NOV', Décembre: 'DÉC',
 };
 
 const DAY_ABBR = {
   Sunday: 'SUN', Monday: 'MON', Tuesday: 'TUE', Wednesday: 'WED',
   Thursday: 'THU', Friday: 'FRI', Saturday: 'SAT',
+  dimanche: 'DIM', lundi: 'LUN', mardi: 'MAR', mercredi: 'MER',
+  jeudi: 'JEU', vendredi: 'VEN', samedi: 'SAM',
 };
 
+const EVERY_LABEL = { every: 'EVERY', chaque: 'CHAQUE' };
+
 function parseDateLabel(dateStr) {
-  const everyMatch = dateStr.match(/Every\s+(\w+)/i);
+  const everyMatch = dateStr.match(/^(Every|Chaque)\s+(\w+)/i);
   if (everyMatch) {
-    const dayName = everyMatch[1];
-    return { month: 'EVERY', day: DAY_ABBR[dayName] ?? dayName.slice(0, 3).toUpperCase() };
+    const keyword = everyMatch[1].toLowerCase();
+    const dayName = everyMatch[2];
+    const month = EVERY_LABEL[keyword] ?? 'EVERY';
+    return { month, day: DAY_ABBR[dayName] ?? dayName.slice(0, 3).toUpperCase() };
   }
   const dateMatch = dateStr.match(/(\w+)\s+(\d+)/);
   if (dateMatch) {
@@ -46,7 +55,7 @@ export function Events() {
             <Link
               key={index}
               to="/events"
-              className="group flex items-center gap-5 rounded-2xl border border-cream-dark bg-white px-6 py-5 transition-colors hover:border-amber hover:shadow-sm"
+              className="group flex items-center gap-5 rounded-2xl border border-cream-dark bg-white px-6 py-5 transition-colors hover:border-amber hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2"
             >
               {/* Date block */}
               <div className="w-14 flex-shrink-0 text-center">
@@ -86,7 +95,7 @@ export function Events() {
 
       <div className="mt-10 text-center">
         <LinkButton to="/events" variant="secondary">
-          See all events →
+          {t('events.seeAll')}
         </LinkButton>
       </div>
     </SectionWrapper>
