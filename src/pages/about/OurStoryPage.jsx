@@ -19,7 +19,7 @@ export default function OurStoryPage() {
       <section className="relative flex min-h-[80vh] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/images/our_history_1.jpg"
+            src="/images/togetherness_1.jpg"
             alt=""
             aria-hidden="true"
             className="h-full w-full object-cover object-center"
