@@ -1,8 +1,36 @@
 import { useTranslation } from '../../hooks/useTranslation';
-import { PageHero } from '../../components/layout/PageHero';
 import { SectionWrapper, SectionHeadline } from '../../components/ui/SectionWrapper';
 import { Card } from '../../components/ui/Card';
 import { LinkButton } from '../../components/ui/Button';
+
+function TeamHero({ headline, subtitle }) {
+  return (
+    <section className="relative flex min-h-[80vh] items-center overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src="/images/meet_the_team.jpg"
+          alt=""
+          aria-hidden="true"
+          className="h-full w-full object-contain object-center bg-black"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-burgundy-dark/65 via-burgundy-dark/25 to-transparent" />
+      </div>
+      <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16">
+        <div className="max-w-xl lg:max-w-2xl">
+          <span className="mb-4 inline-block font-sans text-xs font-semibold uppercase tracking-widest text-amber">
+            Our People
+          </span>
+          <h1 className="font-serif text-5xl font-bold leading-tight text-cream sm:text-6xl lg:text-7xl">
+            {headline}
+          </h1>
+          <p className="mt-6 max-w-md text-lg leading-relaxed text-cream/90 sm:text-xl">
+            {subtitle}
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 function TeamMemberCard({ member }) {
   return (
@@ -34,11 +62,9 @@ export default function MeetTheTeamPage() {
 
   return (
     <>
-      <PageHero
+      <TeamHero
         headline={t('team.hero.headline')}
         subtitle={t('team.hero.subtitle')}
-        backgroundImage="/images/togetherness_1.jpg"
-        imageAlt="GRC community"
       />
 
       {/* Team grid */}
