@@ -5,6 +5,37 @@ import { SectionWrapper, SectionHeadline } from '../../components/ui/SectionWrap
 import { LinkButton } from '../../components/ui/Button';
 import { getMinistryBySlug } from '../../constants/ministries';
 
+function CinematicHero({ headline, subtitle, image, eyebrow }) {
+  return (
+    <section className="relative flex min-h-[80vh] items-center overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src={image}
+          alt=""
+          aria-hidden="true"
+          className="h-full w-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-burgundy-dark/70 via-burgundy-dark/30 to-transparent" />
+      </div>
+      <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16">
+        <div className="max-w-xl lg:max-w-2xl">
+          {eyebrow && (
+            <span className="mb-4 inline-block font-sans text-xs font-semibold uppercase tracking-widest text-amber">
+              {eyebrow}
+            </span>
+          )}
+          <h1 className="font-serif text-5xl font-bold leading-tight text-cream sm:text-6xl lg:text-7xl">
+            {headline}
+          </h1>
+          <p className="mt-6 max-w-md text-lg leading-relaxed text-cream/90 sm:text-xl">
+            {subtitle}
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function ImpactStat({ text }) {
   return (
     <div className="flex items-center gap-3 rounded-xl bg-gold/10 px-5 py-3">
@@ -46,12 +77,21 @@ export default function MinistryDetailPage() {
 
   return (
     <>
-      <PageHero
-        headline={ministryName}
-        subtitle={data.tagline}
-        backgroundImage={ministry.image}
-        imageAlt={ministryName}
-      />
+      {ministry.heroStyle === 'cinematic' ? (
+        <CinematicHero
+          headline={ministryName}
+          subtitle={data.tagline}
+          image={ministry.image}
+          eyebrow="Ministry"
+        />
+      ) : (
+        <PageHero
+          headline={ministryName}
+          subtitle={data.tagline}
+          backgroundImage={ministry.image}
+          imageAlt={ministryName}
+        />
+      )}
 
       {/* Impact stats — shown first to build trust */}
       {Array.isArray(data.impact) && data.impact.length > 0 && (

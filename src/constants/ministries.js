@@ -16,6 +16,7 @@ export const MINISTRY_DATA = [
     i18nKey: 'ministries.smallGroups',
     image: '/images/community_2.jpg',
     gradient: 'from-amber-dark to-gold',
+    heroStyle: 'cinematic',
   },
   {
     slug: 'discipleship-mentorship',
