@@ -1,6 +1,5 @@
 import { useTranslation } from '../../hooks/useTranslation';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
-import { PageHero } from '../../components/layout/PageHero';
 import { SectionWrapper, SectionHeadline } from '../../components/ui/SectionWrapper';
 import { Accordion } from '../../components/ui/Accordion';
 import { LinkButton } from '../../components/ui/Button';
@@ -140,12 +139,25 @@ export default function VisionValuesPage() {
   return (
     <>
       {/* 1. Hero */}
-      <PageHero
-        headline={t('visionValues.hero.headline')}
-        subtitle={t('visionValues.hero.subtitle')}
-        backgroundImage="/images/community_1.jpg"
-        imageAlt={t('visionValues.hero.imageAlt')}
-      />
+      <section className="relative flex min-h-[80vh] items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden">
+          <img
+            src="/images/community_1.jpg"
+            alt=""
+            aria-hidden="true"
+            className="h-full w-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-burgundy-dark/60" />
+        </div>
+        <div className="relative z-10 px-6 text-center max-w-3xl mx-auto">
+          <h1 className="font-serif text-5xl font-bold leading-tight text-cream sm:text-6xl lg:text-7xl">
+            {t('visionValues.hero.headline')}
+          </h1>
+          <p className="mt-6 text-lg leading-relaxed text-cream/90 sm:text-xl">
+            {t('visionValues.hero.subtitle')}
+          </p>
+        </div>
+      </section>
 
       {/* 2. Vision & Mission */}
       <SectionWrapper className="text-center">
