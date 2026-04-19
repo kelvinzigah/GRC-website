@@ -37,7 +37,7 @@ export function InfoBar() {
     <section
       id="about"
       ref={sectionRef}
-      className="animate-on-scroll relative bg-amber/15 py-16 sm:py-20 lg:py-24"
+      className="animate-on-scroll relative bg-amber/15 py-16 sm:py-20 lg:py-24 overflow-hidden"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[5fr_7fr] lg:gap-12 items-start">
