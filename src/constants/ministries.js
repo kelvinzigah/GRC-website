@@ -23,12 +23,14 @@ export const MINISTRY_DATA = [
     i18nKey: 'ministries.discipleshipMentorship',
     image: '/images/evangelism_3.jpg',
     gradient: 'from-burgundy to-burgundy-dark',
+    heroStyle: 'cinematic',
   },
   {
     slug: 'youth-mentorship',
     i18nKey: 'ministries.youthMentorship',
     image: '/images/evangelism_2.jpg',
     gradient: 'from-gold to-amber',
+    heroStyle: 'cinematic',
   },
 ];
 
