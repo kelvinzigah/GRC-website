@@ -38,7 +38,7 @@ export default function OurStoryPage() {
             />
             <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl aspect-[4/3] lg:aspect-auto lg:h-[480px]">
               <img
-                src="/images/grc-gathering.png"
+                src="/images/good-pastor-pic.jpg"
                 alt={t('ourStory.imageAltEvangelism')}
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -93,7 +93,7 @@ export default function OurStoryPage() {
           </div>
           <div className="overflow-hidden rounded-2xl shadow-lg aspect-[4/3] w-full">
             <img
-              src="/images/missionary-2.jpg"
+              src="/images/our_history_1.jpg"
               alt={t('ourStory.imageAltEvangelism')}
               className="w-full h-full object-cover"
               loading="lazy"
@@ -113,7 +113,7 @@ export default function OurStoryPage() {
             />
             <div className="relative z-10 overflow-hidden rounded-2xl shadow-lg aspect-[4/3] w-full">
               <img
-                src="/images/missionary-3.jpg"
+                src="/images/togetherness_8.png"
                 alt={t('ourStory.imageAltEvangelism')}
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -128,27 +128,6 @@ export default function OurStoryPage() {
               {t('ourStory.roots')}
             </p>
           </div>
-        </div>
-      </SectionWrapper>
-
-      {/* ── Section 4: Scripture Interstitial ────────────────────── */}
-      <SectionWrapper dark>
-        <div
-          ref={scriptureRef}
-          className="animate-on-scroll mx-auto max-w-3xl text-center"
-        >
-          <span
-            aria-hidden="true"
-            className="block font-serif text-8xl leading-none text-amber/20 select-none -mb-4"
-          >
-            &ldquo;
-          </span>
-          <blockquote className="font-serif italic text-2xl md:text-3xl text-cream leading-relaxed">
-            {t('ourStory.scriptureText')}
-          </blockquote>
-          <p className="mt-6 font-sans text-sm uppercase tracking-widest text-cream/60">
-            {t('ourStory.scriptureCitation')}
-          </p>
         </div>
       </SectionWrapper>
 
@@ -215,7 +194,7 @@ export default function OurStoryPage() {
                 {t('ourStory.ctaBody')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <LinkButton to="/#connect" variant="primary" size="lg">
+                <LinkButton to="/#contact" variant="primary" size="lg">
                   {t('ourStory.ctaLabel')}
                 </LinkButton>
                 <LinkButton to="/about/meet-the-team" variant="outlineDark" size="lg">

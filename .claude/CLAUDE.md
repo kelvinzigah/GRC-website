@@ -54,9 +54,9 @@ Real church photos are in `public/images/`. Where photos aren't available, warm 
 
 ## Vault Project Memory
 
-This project's session history and evolving context live in the Obsidian vault:
-- **Context**: `/home/kelvin/Documents/vault/projects/GRC_website/CONTEXT.md`
-- **Changelog**: `/home/kelvin/Documents/vault/projects/GRC_website/CHANGELOG.md`
+This project's session history and evolving context live in the synced vault:
+- **Context**: `C:\Users\KZIGAH\Documents\synced-vault\projects\GRC_website\CONTEXT.md`
+- **Changelog**: `C:\Users\KZIGAH\Documents\synced-vault\projects\GRC_website\CHANGELOG.md`
 
 Use `/resume-session` at session start to load context. Use `/sync-session` at session end to log changes.
 

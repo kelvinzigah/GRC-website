@@ -359,22 +359,44 @@
       {
         "name": "Pastor Claude",
         "title": "Lead Pastor",
+        "photo": "/images/ps_claude.jpg",
+        "photoPosition": "center 35%",
         "bio": "Pastor Claude leads GRC with a passion for the Gospel and a heart for the community. He founded the church and is committed to raising disciples who will go and make disciples."
       },
       {
         "name": "Pastor Stephane",
         "title": "Pastor",
+        "photo": "/images/stephane_remy.jpg",
+        "photoPosition": "center 45%",
         "bio": "Pastor Stephane heads our community outreach efforts, including the neighbourhood food drive. He is passionate about meeting practical needs and showing the love of Christ in tangible ways."
       },
       {
         "name": "Pastor Antoine",
         "title": "Pastor",
+        "photo": "/images/bro_antoine_headshot.jpg",
+        "photoPosition": "center center",
         "bio": "Pastor Antoine leads our discipleship and evangelism initiatives and oversees our youth ministry. He is dedicated to equipping believers to share their faith and grow in their walk with God."
       },
       {
         "name": "Head Deacon Elijah",
         "title": "Head Deacon",
+        "photo": "/images/bro_elijah.jpeg",
+        "photoPosition": "center 35%",
         "bio": "Deacon Elijah serves as general overseer of the church and heads our worship team. His servant leadership keeps the congregation connected and the Sunday experience centred on God."
+      },
+      {
+        "name": "Brother Hitesh",
+        "title": "Missions & Evangelism",
+        "photo": "/images/bro_hitesh_3.jpg",
+        "photoPosition": "center 25%",
+        "bio": "Brother Hitesh has a heart for missions across the globe and leads our weekend street evangelism outreaches. He is also deeply involved in discipleship formation, walking alongside believers as they grow in their faith."
+      },
+      {
+        "name": "Sister Joseline",
+        "title": "Evangelism & Church Planting",
+        "photo": "/images/sis_joseline_2.jpg",
+        "photoPosition": "center 35%",
+        "bio": "Sister Joseline spearheads all evangelism initiatives across our church groups and leads various house church planting efforts. She has a deep heart for teaching young Christians about their identity in Christ."
       }
     ],
     "cta": "Join our community →"
@@ -472,6 +494,32 @@
       "goHeading": "Go on Mission",
       "goBody": "You don't have to go far to be on mission. Whether locally or globally, we want to send you. Talk to us about how to get involved.",
       "goButton": "Get In Touch"
+    }
+  },
+
+  "foodDrivePage": {
+    "hero": {
+      "headline": "Neighbourhood Food Drive",
+      "subtitle": "Fighting hunger in our community, one family at a time.",
+      "imageAlt": "Volunteers serving food to families at the GRC neighbourhood food drive"
+    },
+    "whatWeDo": {
+      "headline": "Feeding Our Neighbours",
+      "imageAlt": "Community members gathered around food at the GRC food distribution"
+    },
+    "whoSchedule": {
+      "whoHeadline": "Who Is This For?",
+      "scheduleHeadline": "When & Where",
+      "photoAlt": "Volunteers at an outdoor food distribution table serving the community"
+    },
+    "cta": {
+      "headline": "Join the Mission",
+      "subtitle": "Every Saturday, we show up. Will you?",
+      "primary": "Volunteer Now →",
+      "secondary": "← All Ministries"
+    },
+    "collage": {
+      "sectionLabel": "In Action"
     }
   },
 
@@ -627,5 +675,33 @@
     "followUs": "Follow Us",
     "copyright": "© 2025 Gate of Redemption Church — Montréal, QC",
     "tagline": "Built with faith and purpose."
+  },
+
+  "streetEvangelismPage": {
+    "hero": {
+      "headline": "The Streets Are Our Church",
+      "imageAlt": "GRC street evangelism team sharing the Gospel at night"
+    },
+    "whatWeDo": {
+      "eyebrow": "Street Evangelism",
+      "headline": "We Don't Wait for People to Come to Us",
+      "imageAlt": "A GRC volunteer placing a hand on a man's shoulder in prayer on the street"
+    },
+    "quote": "Every Saturday, we take the Gospel to where people actually are.",
+    "whoSchedule": {
+      "serveLabel": "Serve With Us",
+      "whoHeadline": "Who Is This For?",
+      "scheduleHeadline": "When & Where"
+    },
+    "moments": {
+      "headline": "Moments from the Streets"
+    },
+    "cta": {
+      "headline": "Show Up This Saturday",
+      "subtitle": "No experience needed. Just a willing heart and a pair of walking shoes.",
+      "primary": "Connect with Us →",
+      "secondary": "← All Ministries",
+      "bgImageAlt": "GRC street evangelism team joyfully embracing after outreach"
+    }
   }
 }

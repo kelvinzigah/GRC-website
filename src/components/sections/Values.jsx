@@ -34,7 +34,7 @@ export function Values() {
         {/* Left — contained image with rounded corners */}
         <div className="relative overflow-hidden rounded-2xl shadow-2xl">
           <img
-            src="/images/community_3.jpg"
+            src="/images/togetherness_9.jpg.png"
             alt="GRC community gathered together"
             className="h-full w-full object-cover"
             style={{ aspectRatio: '4/5', maxHeight: '600px' }}

@@ -359,22 +359,44 @@
       {
         "name": "Pasteur Claude",
         "title": "Pasteur principal",
+        "photo": "/images/ps_claude.jpg",
+        "photoPosition": "center 35%",
         "bio": "Le Pasteur Claude dirige GRC avec une passion pour l'Évangile et un cœur pour la communauté. Il a fondé l'église et est engagé à former des disciples qui iront à leur tour faire des disciples."
       },
       {
         "name": "Pasteur Stéphane",
         "title": "Pasteur",
+        "photo": "/images/stephane_remy.jpg",
+        "photoPosition": "center 45%",
         "bio": "Le Pasteur Stéphane coordonne nos efforts de rayonnement communautaire, notamment la collecte de nourriture de quartier. Il est passionné par la réponse aux besoins concrets et le témoignage de l'amour du Christ."
       },
       {
         "name": "Pasteur Antoine",
         "title": "Pasteur",
+        "photo": "/images/bro_antoine_headshot.jpg",
+        "photoPosition": "center center",
         "bio": "Le Pasteur Antoine dirige nos initiatives de discipulat et d'évangélisation et supervise le ministère de la jeunesse. Il est dévoué à équiper les croyants pour partager leur foi et grandir dans leur marche avec Dieu."
       },
       {
         "name": "Diacre Principal Elijah",
         "title": "Diacre Principal",
+        "photo": "/images/bro_elijah.jpeg",
+        "photoPosition": "center 35%",
         "bio": "Le Diacre Elijah est le superviseur général de l'église et dirige notre équipe de louange. Son leadership serviteur maintient la congrégation unie et le culte du dimanche centré sur Dieu."
+      },
+      {
+        "name": "Frère Hitesh",
+        "title": "Missions & Évangélisation",
+        "photo": "/images/bro_hitesh_3.jpg",
+        "photoPosition": "center 25%",
+        "bio": "Le Frère Hitesh a un cœur pour les missions à travers le monde et dirige nos sorties d'évangélisation de rue le week-end. Il est également très impliqué dans la formation au discipulat, accompagnant les croyants dans leur croissance spirituelle."
+      },
+      {
+        "name": "Sœur Joseline",
+        "title": "Évangélisation & Implantation d'Églises",
+        "photo": "/images/sis_joseline_2.jpg",
+        "photoPosition": "center 35%",
+        "bio": "Sœur Joseline dirige toutes les initiatives d'évangélisation à travers nos groupes d'église et coordonne diverses initiatives de maisons d'église. Elle a un profond désir d'enseigner aux jeunes chrétiens leur identité en Christ."
       }
     ],
     "cta": "Rejoignez notre communauté →"
@@ -472,6 +494,32 @@
       "goHeading": "Partir en mission",
       "goBody": "Il n'est pas nécessaire d'aller loin pour être en mission. Localement ou à l'international, nous voulons vous envoyer. Parlez-nous de la façon de vous impliquer.",
       "goButton": "Nous contacter"
+    }
+  },
+
+  "foodDrivePage": {
+    "hero": {
+      "headline": "Collecte alimentaire de quartier",
+      "subtitle": "Lutter contre la faim dans notre communauté, une famille à la fois.",
+      "imageAlt": "Des bénévoles distribuant de la nourriture aux familles lors de la collecte alimentaire de GRC"
+    },
+    "whatWeDo": {
+      "headline": "Nourrir nos voisins",
+      "imageAlt": "Des membres de la communauté rassemblés autour de la nourriture lors de la distribution de GRC"
+    },
+    "whoSchedule": {
+      "whoHeadline": "Pour qui est-ce?",
+      "scheduleHeadline": "Quand et où",
+      "photoAlt": "Bénévoles à une table de distribution alimentaire extérieure servant la communauté"
+    },
+    "cta": {
+      "headline": "Rejoignez la mission",
+      "subtitle": "Chaque samedi, nous sommes là. Et vous ?",
+      "primary": "Devenir bénévole →",
+      "secondary": "← Tous les ministères"
+    },
+    "collage": {
+      "sectionLabel": "En action"
     }
   },
 
@@ -627,5 +675,33 @@
     "followUs": "Suivez-nous",
     "copyright": "© 2025 Église Porte de la Rédemption — Montréal, QC",
     "tagline": "Bâti avec foi et intention."
+  },
+
+  "streetEvangelismPage": {
+    "hero": {
+      "headline": "Les rues sont notre église",
+      "imageAlt": "L'équipe d'évangélisation de rue de GRC partageant l'Évangile de nuit"
+    },
+    "whatWeDo": {
+      "eyebrow": "Évangélisation de rue",
+      "headline": "Nous n'attendons pas que les gens viennent à nous",
+      "imageAlt": "Un bénévole de GRC posant la main sur l'épaule d'un homme en prière dans la rue"
+    },
+    "quote": "Chaque samedi, nous portons l'Évangile là où se trouvent vraiment les gens.",
+    "whoSchedule": {
+      "serveLabel": "Servez avec nous",
+      "whoHeadline": "Pour qui est-ce ?",
+      "scheduleHeadline": "Quand et où"
+    },
+    "moments": {
+      "headline": "Des moments dans les rues"
+    },
+    "cta": {
+      "headline": "Soyez présent ce samedi",
+      "subtitle": "Aucune expérience requise. Juste un cœur disponible et une bonne paire de chaussures.",
+      "primary": "Contactez-nous →",
+      "secondary": "← Tous les ministères",
+      "bgImageAlt": "L'équipe d'évangélisation de rue de GRC s'étreignant joyeusement après la sortie"
+    }
   }
 }

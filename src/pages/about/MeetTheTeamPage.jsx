@@ -7,9 +7,19 @@ import { LinkButton } from '../../components/ui/Button';
 function TeamMemberCard({ member }) {
   return (
     <Card className="flex flex-col items-center text-center p-8">
-      {/* Photo slot — replace gradient with <img src={member.photo}> when available */}
-      <div className="h-28 w-28 rounded-full bg-gradient-to-br from-burgundy to-amber flex items-center justify-center text-cream/60 text-4xl font-serif font-bold ring-4 ring-cream-dark">
-        {member.name.charAt(0)}
+      <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-cream-dark flex-shrink-0">
+        {member.photo ? (
+          <img
+            src={member.photo}
+            alt={member.name}
+            className="w-full h-full object-cover"
+            style={{ objectPosition: member.photoPosition || 'center 30%' }}
+          />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-br from-burgundy to-amber flex items-center justify-center text-cream/60 text-4xl font-serif font-bold">
+            {member.name.charAt(0)}
+          </div>
+        )}
       </div>
       <h3 className="mt-6 font-serif text-xl font-bold text-burgundy-dark">{member.name}</h3>
       <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-amber">{member.title}</p>
@@ -55,7 +65,7 @@ export default function MeetTheTeamPage() {
           Every member is a minister. Come be part of a community that serves together.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-          <LinkButton to="/#connect" variant="primary">
+          <LinkButton to="/#contact" variant="primary">
             {t('team.cta')}
           </LinkButton>
           <LinkButton to="/events" variant="outline">

@@ -13,6 +13,8 @@ const MeetTheTeamPage = lazy(() => import('./pages/about/MeetTheTeamPage'));
 const MinistriesPage = lazy(() => import('./pages/ministries/MinistriesPage'));
 const MinistryDetailPage = lazy(() => import('./pages/ministries/MinistryDetailPage'));
 const MissionsPage = lazy(() => import('./pages/ministries/MissionsPage'));
+const FoodDrivePage = lazy(() => import('./pages/ministries/FoodDrivePage'));
+const StreetEvangelismPage = lazy(() => import('./pages/ministries/StreetEvangelismPage'));
 const EventsPage = lazy(() => import('./pages/events/EventsPage'));
 const MediaPage = lazy(() => import('./pages/media/MediaPage'));
 const SermonsPage = lazy(() => import('./pages/media/SermonsPage'));
@@ -33,6 +35,8 @@ createRoot(document.getElementById('root')).render(
               <Route path="about/meet-the-team" element={<MeetTheTeamPage />} />
               <Route path="ministries" element={<MinistriesPage />} />
               <Route path="ministries/missions" element={<MissionsPage />} />
+              <Route path="ministries/food-drive" element={<FoodDrivePage />} />
+              <Route path="ministries/street-evangelism" element={<StreetEvangelismPage />} />
               <Route path="ministries/:slug" element={<MinistryDetailPage />} />
               <Route path="events" element={<EventsPage />} />
               <Route path="media" element={<MediaPage />} />

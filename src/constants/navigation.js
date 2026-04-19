@@ -41,8 +41,8 @@ export const NAV_LINKS_LEFT = [
 ];
 
 export const NAV_LINKS_RIGHT = [
-  { key: 'give', labelKey: 'nav.give', href: '/#connect', type: 'hash' },
-  { key: 'visit', labelKey: 'nav.visitUs', href: '/#services', type: 'hash' },
+  { key: 'give', labelKey: 'nav.give', href: '/#contact', type: 'hash' },
+  { key: 'visit', labelKey: 'nav.visitUs', href: '/#contact', type: 'hash' },
 ];
 
 export const SECTION_IDS = [

@@ -1,4 +1,5 @@
 import { useTranslation } from '../../hooks/useTranslation';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import { PageHero } from '../../components/layout/PageHero';
 import { SectionWrapper, SectionHeadline } from '../../components/ui/SectionWrapper';
 import { Accordion } from '../../components/ui/Accordion';
@@ -117,10 +118,20 @@ const PILLAR_ICONS = [
   IconHands,
 ];
 
+const VALUE_IMAGES = [
+  '/images/worship_1.jpg',
+  '/images/our_history_1.jpg',
+  '/images/evangelism_2.jpg',
+  '/images/community_1.jpg',
+  '/images/togetherness_8.png',
+  '/images/togetherness_7.png',
+];
+
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function VisionValuesPage() {
   const { t } = useTranslation();
+  const valuesGridRef = useScrollAnimation();
 
   const visionItems = t('visionValues.values.items');
   const pillarItems = t('visionValues.pillars.items');
@@ -136,13 +147,32 @@ export default function VisionValuesPage() {
 
       {/* 2. Vision & Mission */}
       <SectionWrapper className="text-center">
+        {/* Image strip */}
+        <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-2xl mb-16">
+          <img
+            src="/images/front_page_4.jpg"
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-burgundy/40" aria-hidden="true" />
+        </div>
+
         <div className="mx-auto max-w-3xl space-y-16">
           {/* Vision */}
-          <div>
+          <div className="relative">
+            <span
+              aria-hidden="true"
+              className="absolute -top-6 left-1/2 -translate-x-1/2 font-serif text-[8rem] leading-none text-amber/15 select-none pointer-events-none"
+            >
+              &#8220;
+            </span>
             <h2 className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-amber">
-              {t('visionValues.vision.sectionLabel')}
+              <span className="border-b-2 border-amber pb-1 inline-block">
+                {t('visionValues.vision.sectionLabel')}
+              </span>
             </h2>
-            <p className="font-serif text-2xl italic text-burgundy leading-relaxed md:text-3xl">
+            <p className="font-serif text-2xl italic text-burgundy leading-relaxed md:text-4xl">
               &ldquo;{t('visionValues.vision.text')}&rdquo;
             </p>
             <p className="mt-4 font-serif text-sm text-gold">
@@ -151,14 +181,25 @@ export default function VisionValuesPage() {
           </div>
 
           {/* Divider */}
-          <div className="mx-auto h-px w-24 bg-amber/30" />
+          <div className="flex flex-col items-center gap-1">
+            <div className="w-32 h-0.5 bg-amber/50" />
+            <div className="text-amber/40 text-xl select-none" aria-hidden="true">&#9670;</div>
+          </div>
 
           {/* Mission */}
-          <div>
+          <div className="relative">
+            <span
+              aria-hidden="true"
+              className="absolute -top-6 left-1/2 -translate-x-1/2 font-serif text-[8rem] leading-none text-amber/15 select-none pointer-events-none"
+            >
+              &#8220;
+            </span>
             <h2 className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-amber">
-              {t('visionValues.mission.sectionLabel')}
+              <span className="border-b-2 border-amber pb-1 inline-block">
+                {t('visionValues.mission.sectionLabel')}
+              </span>
             </h2>
-            <p className="font-serif text-2xl italic text-burgundy leading-relaxed md:text-3xl">
+            <p className="font-serif text-2xl italic text-burgundy leading-relaxed md:text-4xl">
               &ldquo;{t('visionValues.mission.text')}&rdquo;
             </p>
             <p className="mt-4 font-serif text-sm text-gold">
@@ -169,11 +210,30 @@ export default function VisionValuesPage() {
       </SectionWrapper>
 
       {/* 3. Heart of Faith */}
-      <SectionWrapper className="bg-cream-dark text-center">
-        <div className="mx-auto max-w-3xl">
-          <p className="font-serif text-2xl italic text-burgundy leading-relaxed md:text-3xl">
+      <SectionWrapper className="relative overflow-hidden bg-burgundy-dark text-center">
+        <img
+          src="/images/togetherness_1.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-burgundy/75" aria-hidden="true" />
+        <div className="relative z-10 mx-auto max-w-3xl">
+          <span
+            aria-hidden="true"
+            className="block font-serif text-[6rem] leading-none text-amber/30 select-none -mb-8"
+          >
+            &#8220;
+          </span>
+          <p className="font-serif text-2xl italic text-cream leading-relaxed md:text-3xl">
             &ldquo;{t('visionValues.heartOfFaith')}&rdquo;
           </p>
+          <span
+            aria-hidden="true"
+            className="block font-serif text-[6rem] leading-none text-amber/30 select-none -mt-8"
+          >
+            &#8221;
+          </span>
         </div>
       </SectionWrapper>
 
@@ -182,23 +242,37 @@ export default function VisionValuesPage() {
         <SectionHeadline dark className="text-center mb-12">
           {t('visionValues.values.headline')}
         </SectionHeadline>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div
+          ref={valuesGridRef}
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 stagger-children animate-on-scroll"
+        >
           {Array.isArray(visionItems) && visionItems.map((item, index) => {
             const Icon = VALUE_ICONS[index] || VALUE_ICONS[0];
             return (
               <div
                 key={index}
-                className="bg-white/5 rounded-2xl border border-white/10 p-6 text-center"
+                className="bg-white/5 rounded-2xl border border-white/10 overflow-hidden flex flex-col"
               >
-                <div className="w-10 h-10 mx-auto mb-4 text-amber">
-                  <Icon className="w-10 h-10" />
+                <div className="h-32 overflow-hidden relative flex-shrink-0">
+                  <img
+                    src={VALUE_IMAGES[index]}
+                    alt=""
+                    aria-hidden="true"
+                    className="w-full h-full object-cover opacity-60"
+                  />
+                  <div className="absolute inset-0 bg-burgundy-dark/50" aria-hidden="true" />
+                  <div className="absolute bottom-3 left-1/2 -translate-x-1/2 w-10 h-10 text-amber">
+                    <Icon className="w-10 h-10" />
+                  </div>
                 </div>
-                <h3 className="font-serif text-lg font-semibold text-cream mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-cream/70 text-sm leading-relaxed">
-                  {item.desc}
-                </p>
+                <div className="p-6 text-center flex-1 flex flex-col">
+                  <h3 className="font-serif text-xl font-semibold text-cream mb-3">
+                    {item.title}
+                  </h3>
+                  <p className="text-cream/70 text-sm leading-relaxed flex-1">
+                    {item.desc}
+                  </p>
+                </div>
               </div>
             );
           })}
@@ -208,7 +282,9 @@ export default function VisionValuesPage() {
       {/* 5. Ministry Pillars */}
       <SectionWrapper>
         <SectionHeadline className="text-center mb-12">
-          {t('visionValues.pillars.headline')}
+          <span className="border-b-2 border-amber pb-2">
+            {t('visionValues.pillars.headline')}
+          </span>
         </SectionHeadline>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-5">
           {Array.isArray(pillarItems) && pillarItems.map((item, index) => {
@@ -216,10 +292,10 @@ export default function VisionValuesPage() {
             return (
               <div
                 key={index}
-                className="rounded-xl border border-burgundy/10 p-5 flex flex-col items-center gap-3 hover:border-burgundy/30 transition-colors"
+                className="rounded-xl border border-burgundy/10 p-5 flex flex-col items-center gap-3 hover:border-burgundy/30 hover:bg-burgundy/5 hover:shadow-sm transition-all"
               >
-                <div className="w-8 h-8 text-amber">
-                  <Icon className="w-8 h-8" />
+                <div className="w-10 h-10 text-amber">
+                  <Icon className="w-10 h-10" />
                 </div>
                 <p className="font-serif font-semibold text-burgundy text-center text-sm">
                   {item.title}
@@ -230,9 +306,41 @@ export default function VisionValuesPage() {
         </div>
       </SectionWrapper>
 
+      {/* Photo Collage Strip */}
+      <section className="relative overflow-hidden" aria-hidden="true">
+        <div className="flex h-56 md:h-72">
+          <div className="w-1/3 overflow-hidden">
+            <img
+              src="/images/missionary-1.jpg"
+              alt=""
+              aria-hidden="true"
+              className="w-full h-full object-cover vv-collage-img-hover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="w-1/3 overflow-hidden">
+            <img
+              src="/images/community_2.jpg"
+              alt=""
+              aria-hidden="true"
+              className="w-full h-full object-cover vv-collage-img-hover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="w-1/3 overflow-hidden">
+            <img
+              src="/images/church-planting.jpg"
+              alt=""
+              aria-hidden="true"
+              className="w-full h-full object-cover vv-collage-img-hover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+        </div>
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-amber/60" />
+      </section>
+
       {/* 6. Statement of Faith */}
       <SectionWrapper dark>
         <div className="mx-auto max-w-3xl">
+          <div className="w-16 h-0.5 bg-amber mb-6" />
           <SectionHeadline dark className="mb-8">
             {t('visionValues.statementOfFaithHeadline')}
           </SectionHeadline>
@@ -243,20 +351,29 @@ export default function VisionValuesPage() {
       </SectionWrapper>
 
       {/* 7. CTA */}
-      <SectionWrapper className="text-center">
-        <SectionHeadline className="text-center">
-          {t('visionValues.cta.headline')}
-        </SectionHeadline>
-        <p className="mt-4 text-neutral-600 max-w-xl mx-auto text-lg">
-          {t('visionValues.cta.subtitle')}
-        </p>
-        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-          <LinkButton to="/ministries" variant="primary" className="focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2">
-            {t('visionValues.cta.primary')}
-          </LinkButton>
-          <LinkButton to="/about/meet-the-team" variant="outline" className="focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2">
-            {t('visionValues.cta.secondary')}
-          </LinkButton>
+      <SectionWrapper className="relative overflow-hidden text-center">
+        <img
+          src="/images/grc-gathering.png"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-burgundy-dark/80" aria-hidden="true" />
+        <div className="relative z-10">
+          <SectionHeadline dark className="text-center">
+            {t('visionValues.cta.headline')}
+          </SectionHeadline>
+          <p className="mt-4 text-cream/80 max-w-xl mx-auto text-lg">
+            {t('visionValues.cta.subtitle')}
+          </p>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <LinkButton to="/ministries" variant="primary" className="focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2">
+              {t('visionValues.cta.primary')}
+            </LinkButton>
+            <LinkButton to="/about/meet-the-team" variant="outline" className="border-cream text-cream hover:bg-cream/10 focus-visible:ring-2 focus-visible:ring-amber focus-visible:ring-offset-2">
+              {t('visionValues.cta.secondary')}
+            </LinkButton>
+          </div>
         </div>
       </SectionWrapper>
     </>

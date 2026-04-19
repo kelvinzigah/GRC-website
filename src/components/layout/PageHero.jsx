@@ -11,6 +11,7 @@ export function PageHero({
   backgroundVideo,
   imageAlt = '',
   imagePosition = 'object-center',
+  overlayClass = 'bg-burgundy-dark/75',
   children,
   className,
 }) {
@@ -46,7 +47,7 @@ export function PageHero({
             alt={imageAlt}
             className={cn('absolute inset-0 h-full w-full object-cover', imagePosition)}
           />
-          <div className="absolute inset-0 bg-burgundy-dark/75" />
+          <div className={cn('absolute inset-0', overlayClass)} />
         </>
       )}
 
