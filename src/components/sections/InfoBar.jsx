@@ -37,7 +37,7 @@ export function InfoBar() {
     <section
       id="about"
       ref={sectionRef}
-      className="animate-on-scroll relative bg-amber/15 py-16 sm:py-20 lg:py-24 overflow-hidden"
+      className="animate-on-scroll relative bg-amber/15 py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[5fr_7fr] lg:gap-12 items-start">
@@ -92,10 +92,10 @@ export function InfoBar() {
             </div>
           </div>
 
-          {/* Right column — 3-image collage, pushed hard right and down */}
-          <div className="flex items-end justify-end gap-4 overflow-visible mt-24 -mr-4 sm:-mr-6 lg:-mr-48 xl:-mr-72 2xl:-mr-96">
+          {/* Right column — 3-image staggered collage */}
+          <div className="flex items-end gap-3 mt-8 w-full">
             {/* Left image — shorter, offset down */}
-            <div className="mt-16 h-[19rem] w-[30%] overflow-hidden rounded-xl shadow-lg">
+            <div className="mt-14 h-[18rem] flex-1 overflow-hidden rounded-xl shadow-lg">
               <img
                 src="/images/worship_2.png"
                 alt={t('hero.bgImageAlt')}
@@ -103,7 +103,7 @@ export function InfoBar() {
               />
             </div>
             {/* Center image — tallest */}
-            <div className="h-[31rem] w-[36%] overflow-hidden rounded-xl shadow-xl">
+            <div className="h-[29rem] flex-1 overflow-hidden rounded-xl shadow-xl">
               <img
                 src="/images/worship_team_3.jpg"
                 alt={t('infoBar.cardImageAlt')}
@@ -111,7 +111,7 @@ export function InfoBar() {
               />
             </div>
             {/* Right image — shorter, offset down */}
-            <div className="mt-16 h-[19rem] w-[30%] overflow-hidden rounded-xl shadow-lg">
+            <div className="mt-14 h-[18rem] flex-1 overflow-hidden rounded-xl shadow-lg">
               <img
                 src="/images/front_page_3.jpg"
                 alt={t('infoBar.cardImageAlt')}
