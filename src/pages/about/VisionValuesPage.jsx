@@ -143,6 +143,8 @@ export default function VisionValuesPage() {
       <PageHero
         headline={t('visionValues.hero.headline')}
         subtitle={t('visionValues.hero.subtitle')}
+        backgroundImage="/images/community_1.jpg"
+        imageAlt={t('visionValues.hero.imageAlt')}
       />
 
       {/* 2. Vision & Mission */}

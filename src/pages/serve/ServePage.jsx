@@ -75,7 +75,7 @@ export default function ServePage() {
       <PageHero
         headline={t('serve.hero.headline')}
         subtitle={t('serve.hero.subtitle')}
-        backgroundImage="/images/togetherness_1.jpg"
+        backgroundImage="/images/community_3.jpg"
         imageAlt="GRC team"
       />
 

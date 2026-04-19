@@ -157,17 +157,17 @@
     "sermons": [
       {
         "title": "Passer par la porte",
-        "speaker": "Pasteur Emmanuel",
+        "speaker": "Pasteur Claude",
         "date": "9 mars 2026"
       },
       {
         "title": "Le prix du discipulat",
-        "speaker": "Pasteur Emmanuel",
+        "speaker": "Pasteur Claude",
         "date": "2 mars 2026"
       },
       {
         "title": "Allez et faites des disciples",
-        "speaker": "Ancien David",
+        "speaker": "Diacre principal Elijah",
         "date": "23 février 2026"
       }
     ],
@@ -277,7 +277,8 @@
   "visionValues": {
     "hero": {
       "headline": "Ce que nous croyons",
-      "subtitle": "Notre vision, nos valeurs et les convictions qui guident tout ce que nous faisons."
+      "subtitle": "Notre vision, nos valeurs et les convictions qui guident tout ce que nous faisons.",
+      "imageAlt": "La congrégation de GRC rassemblée en adoration"
     },
     "vision": {
       "sectionLabel": "Notre Vision",
@@ -559,7 +560,7 @@
     "items": [
       {
         "title": "Passer par la porte",
-        "speaker": "Pasteur Emmanuel",
+        "speaker": "Pasteur Claude",
         "date": "9 mars 2026",
         "series": "L'Évangile de Jean",
         "scriptureRef": "Jean 10:1–10",
@@ -567,7 +568,7 @@
       },
       {
         "title": "Le prix du discipulat",
-        "speaker": "Pasteur Emmanuel",
+        "speaker": "Pasteur Claude",
         "date": "2 mars 2026",
         "series": "Suivre Jésus",
         "scriptureRef": "Luc 9:23–27",
@@ -575,7 +576,7 @@
       },
       {
         "title": "Allez et faites des disciples",
-        "speaker": "Ancien David",
+        "speaker": "Diacre principal Elijah",
         "date": "23 février 2026",
         "series": "Le Grand Mandat",
         "scriptureRef": "Matthieu 28:18–20",
@@ -587,7 +588,8 @@
   "podcast": {
     "hero": {
       "headline": "Le balado GRC",
-      "subtitle": "Conversations sur la foi, la communauté et l'Évangile à Montréal."
+      "subtitle": "Conversations sur la foi, la communauté et l'Évangile à Montréal.",
+      "imageAlt": "Culte de GRC"
     },
     "platforms": {
       "apple": "Écouter sur Apple Podcasts",
@@ -598,7 +600,7 @@
       {
         "title": "La foi en ville : Planter à Montréal",
         "duration": "32 min",
-        "description": "Le Pasteur Emmanuel raconte l'histoire derrière GRC et ce que signifie planter une église dans une ville séculière."
+        "description": "Le Pasteur Claude raconte l'histoire derrière GRC et ce que signifie planter une église dans une ville séculière."
       },
       {
         "title": "Ce que le Grand Mandat signifie aujourd'hui",

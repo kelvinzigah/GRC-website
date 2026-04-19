@@ -27,8 +27,8 @@ export default function SermonsPage() {
       <PageHero
         headline={t('sermons.hero.headline')}
         subtitle={t('sermons.hero.subtitle')}
-        backgroundImage="/images/togetherness_1.jpg"
-        imageAlt="GRC sermons"
+        backgroundImage="/images/good_landing_page_1.jpg"
+        imageAlt="Pastor preaching at GRC"
       />
 
       <SectionWrapper>

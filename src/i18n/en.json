@@ -157,17 +157,17 @@
     "sermons": [
       {
         "title": "Walking Through the Gate",
-        "speaker": "Pastor Emmanuel",
+        "speaker": "Pastor Claude",
         "date": "March 9, 2026"
       },
       {
         "title": "The Cost of Discipleship",
-        "speaker": "Pastor Emmanuel",
+        "speaker": "Pastor Claude",
         "date": "March 2, 2026"
       },
       {
         "title": "Go and Make Disciples",
-        "speaker": "Elder David",
+        "speaker": "Head Deacon Elijah",
         "date": "February 23, 2026"
       }
     ],
@@ -277,7 +277,8 @@
   "visionValues": {
     "hero": {
       "headline": "What We Believe",
-      "subtitle": "Our vision, values, and the convictions that guide everything we do."
+      "subtitle": "Our vision, values, and the convictions that guide everything we do.",
+      "imageAlt": "GRC congregation gathered in worship"
     },
     "vision": {
       "sectionLabel": "Our Vision",
@@ -559,7 +560,7 @@
     "items": [
       {
         "title": "Walking Through the Gate",
-        "speaker": "Pastor Emmanuel",
+        "speaker": "Pastor Claude",
         "date": "March 9, 2026",
         "series": "Gospel of John",
         "scriptureRef": "John 10:1–10",
@@ -567,7 +568,7 @@
       },
       {
         "title": "The Cost of Discipleship",
-        "speaker": "Pastor Emmanuel",
+        "speaker": "Pastor Claude",
         "date": "March 2, 2026",
         "series": "Following Jesus",
         "scriptureRef": "Luke 9:23–27",
@@ -575,7 +576,7 @@
       },
       {
         "title": "Go and Make Disciples",
-        "speaker": "Elder David",
+        "speaker": "Head Deacon Elijah",
         "date": "February 23, 2026",
         "series": "The Great Commission",
         "scriptureRef": "Matthew 28:18–20",
@@ -587,7 +588,8 @@
   "podcast": {
     "hero": {
       "headline": "The GRC Podcast",
-      "subtitle": "Conversations about faith, community, and the Gospel in Montréal."
+      "subtitle": "Conversations about faith, community, and the Gospel in Montréal.",
+      "imageAlt": "GRC worship service"
     },
     "platforms": {
       "apple": "Listen on Apple Podcasts",
@@ -598,7 +600,7 @@
       {
         "title": "Faith in the City: Planting in Montréal",
         "duration": "32 min",
-        "description": "Pastor Emmanuel shares the story behind GRC and what it means to plant a church in a secular city."
+        "description": "Pastor Claude shares the story behind GRC and what it means to plant a church in a secular city."
       },
       {
         "title": "What the Great Commission Means Today",

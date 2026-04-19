@@ -20,7 +20,7 @@ export default function OurStoryPage() {
       <PageHero
         headline={t('ourStory.headline')}
         subtitle={t('ourStory.hero.subtitle')}
-        backgroundImage="/images/evangelism_pic_1.jpg"
+        backgroundImage="/images/our_history_1.jpg"
         imageAlt={t('ourStory.imageAltEvangelism')}
       />
 

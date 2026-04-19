@@ -20,7 +20,7 @@ export default function MediaPage() {
       <PageHero
         headline={t('mediaPage.hero.headline')}
         subtitle={t('mediaPage.hero.subtitle')}
-        backgroundImage="/images/togetherness_1.jpg"
+        backgroundImage="/images/worship_team_3.jpg"
         imageAlt="GRC community worship"
       />
 

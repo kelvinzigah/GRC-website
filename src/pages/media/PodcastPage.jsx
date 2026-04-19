@@ -20,6 +20,8 @@ export default function PodcastPage() {
       <PageHero
         headline={t('podcast.hero.headline')}
         subtitle={t('podcast.hero.subtitle')}
+        backgroundImage="/images/worship_1.jpg"
+        imageAlt={t('podcast.hero.imageAlt')}
       />
 
       {/* Platform links */}
