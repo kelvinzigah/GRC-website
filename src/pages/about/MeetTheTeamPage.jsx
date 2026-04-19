@@ -11,7 +11,7 @@ function TeamHero({ headline, subtitle }) {
           src="/images/meet_the_team.jpg"
           alt=""
           aria-hidden="true"
-          className="h-full w-full object-contain object-center bg-black"
+          className="h-full w-full object-cover object-[center_20%]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-burgundy-dark/65 via-burgundy-dark/25 to-transparent" />
       </div>
