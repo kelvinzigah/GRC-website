@@ -5,15 +5,15 @@ import { SectionWrapper, SectionHeadline } from '../../components/ui/SectionWrap
 import { LinkButton } from '../../components/ui/Button';
 import { getMinistryBySlug } from '../../constants/ministries';
 
-function CinematicHero({ headline, subtitle, image, eyebrow }) {
+function CinematicHero({ headline, subtitle, image, eyebrow, objectFit = 'cover' }) {
   return (
     <section className="relative flex min-h-[80vh] items-center overflow-hidden">
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden bg-burgundy-dark">
         <img
           src={image}
           alt=""
           aria-hidden="true"
-          className="h-full w-full object-cover object-center"
+          className={`h-full w-full object-center ${objectFit === 'contain' ? 'object-contain' : 'object-cover'}`}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-burgundy-dark/70 via-burgundy-dark/30 to-transparent" />
       </div>
@@ -83,6 +83,7 @@ export default function MinistryDetailPage() {
           subtitle={data.tagline}
           image={ministry.image}
           eyebrow="Ministry"
+          objectFit={ministry.objectFit}
         />
       ) : (
         <PageHero

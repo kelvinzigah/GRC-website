@@ -24,6 +24,7 @@ export const MINISTRY_DATA = [
     image: '/images/evangelism_3.jpg',
     gradient: 'from-burgundy to-burgundy-dark',
     heroStyle: 'cinematic',
+    objectFit: 'contain',
   },
   {
     slug: 'youth-mentorship',
@@ -31,6 +32,7 @@ export const MINISTRY_DATA = [
     image: '/images/evangelism_2.jpg',
     gradient: 'from-gold to-amber',
     heroStyle: 'cinematic',
+    objectFit: 'contain',
   },
 ];
 
